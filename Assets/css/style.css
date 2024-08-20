@@ -1,0 +1,44 @@
+.logoImageSize {
+  width: 200px;
+  height: 200px;
+}
+
+.headerlink {
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.headerlink:hover {
+  background: red;
+  border-radius: 10px;
+  padding: 2px 40px;
+}
+
+.mainbagroundImage {
+  width: 100%;
+  height: 100vh;
+  background: url("../Images/website-images/mainBaner.jpg") no-repeat center
+    center;
+  background-size: cover;
+}
+
+.shipbagroundImage {
+  width: 100%;
+  height: 100vh;
+  background: url("../Images/website-images/shipBanner.jpg") no-repeat center
+    center;
+  background-size: cover;
+}
+
+.containerLoarybagroundImage {
+  width: 100%;
+  height: 100vh;
+  background: url("../Images/website-images/container-operation.jpg") no-repeat
+    center center;
+  background-size: cover;
+}
+
+.footerLogoSize {
+  width: 120px;
+  height: 120px;
+}
