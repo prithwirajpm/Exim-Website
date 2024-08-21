@@ -1,4 +1,4 @@
-.logoImageSize {
+/* .logoImageSize {
   width: 200px;
   height: 200px;
 }
@@ -12,11 +12,10 @@
   background: red;
   border-radius: 10px;
   padding: 2px 40px;
-}
+} */
 
 .mainbagroundImage {
   width: 100%;
-  height: 100vh;
   background: url("../Images/website-images/mainBaner.jpg") no-repeat center
     center;
   background-size: cover;

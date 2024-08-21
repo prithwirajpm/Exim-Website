@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'DM Sans 36pt';
+    src: url('DMSans36pt-Medium.woff2') format('woff2'),
+        url('DMSans36pt-Medium.woff') format('woff'),
+        url('DMSans36pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowText';
+    src: url('HelveticaNowText-Light.woff2') format('woff2'),
+        url('HelveticaNowText-Light.woff') format('woff'),
+        url('HelveticaNowText-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 36pt';
+    src: url('DMSans36pt-Regular.woff2') format('woff2'),
+        url('DMSans36pt-Regular.woff') format('woff'),
+        url('DMSans36pt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans 36pt';
+    src: url('DMSans36pt-Light.woff2') format('woff2'),
+        url('DMSans36pt-Light.woff') format('woff'),
+        url('DMSans36pt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
