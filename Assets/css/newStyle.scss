@@ -527,7 +527,14 @@ header {
   font-family: "DM Sans 36pt";
   .container {
     display: flex;
-    height: 80%;
+    .logo-image {
+      width: 200px;
+      overflow: hidden;
+      img {
+        object-fit: cover;
+        object-position: center;
+      }
+    }
     .icons-colors {
       i {
         margin-right: 30px;
@@ -535,9 +542,9 @@ header {
     }
 
     .center-align {
-      display: flex;
-      align-items: center;
-      p {
+      li {
+        display: flex;
+        padding: 5px 0px;
         i {
           color: rgb(246, 0, 2);
           margin-right: 10px;
@@ -825,6 +832,7 @@ header {
       right: 0;
       bottom: 0;
       left: 0;
+      padding: 0;
       display: flex;
       .how-we-work-heading {
         h1 {
@@ -1085,16 +1093,19 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
       }
       .column-two {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
       }
       .column-three {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
       }
       .imag-item {
         width: 90%;
@@ -1120,7 +1131,14 @@ header {
     .container {
       display: flex;
       flex-direction: column;
-      height: 80%;
+      .logo-image {
+        width: 200px;
+        overflow: hidden;
+        img {
+          object-fit: cover;
+          object-position: center;
+        }
+      }
       .icons-colors {
         i {
           margin-right: 30px;
@@ -1128,14 +1146,16 @@ header {
       }
 
       .center-align {
-        display: flex;
-        p {
-          i {
-            color: rgb(246, 0, 2);
-            margin-right: 10px;
-          }
-          span {
-            margin-left: 0px;
+        padding-top: 20px;
+        ul {
+          padding: 0;
+          li {
+            display: flex;
+            padding: 5px 0px;
+            i {
+              color: rgb(246, 0, 2);
+              margin-right: 10px;
+            }
           }
         }
       }

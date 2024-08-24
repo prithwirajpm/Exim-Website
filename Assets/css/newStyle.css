@@ -515,16 +515,25 @@ header .headerItems .nav-links .headerlink:hover {
 }
 .footer-section .container {
   display: flex;
-  height: 80%;
+}
+.footer-section .container .logo-image {
+  width: 200px;
+  overflow: hidden;
+}
+.footer-section .container .logo-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 .footer-section .container .icons-colors i {
   margin-right: 30px;
 }
-.footer-section .container .center-align {
+.footer-section .container .center-align li {
   display: flex;
-  align-items: center;
+  padding: 5px 0px;
 }
-.footer-section .container .center-align p i {
+.footer-section .container .center-align li i {
   color: rgb(246, 0, 2);
   margin-right: 10px;
 }
@@ -810,6 +819,7 @@ header .headerItems .nav-links .headerlink:hover {
     right: 0;
     bottom: 0;
     left: 0;
+    padding: 0;
     display: flex;
   }
   .how-we-work .how-we-work-content .how-we-work-heading h1 {
@@ -1060,16 +1070,19 @@ header .headerItems .nav-links .headerlink:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
   }
   .find-us .image-group .column-two {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
   }
   .find-us .image-group .column-three {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
   }
   .find-us .image-group .imag-item {
     width: 90%;
@@ -1096,19 +1109,32 @@ header .headerItems .nav-links .headerlink:hover {
   .footer-section .container {
     display: flex;
     flex-direction: column;
-    height: 80%;
+  }
+  .footer-section .container .logo-image {
+    width: 200px;
+    overflow: hidden;
+  }
+  .footer-section .container .logo-image img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
   }
   .footer-section .container .icons-colors i {
     margin-right: 30px;
   }
   .footer-section .container .center-align {
-    display: flex;
+    padding-top: 20px;
   }
-  .footer-section .container .center-align p i {
+  .footer-section .container .center-align ul {
+    padding: 0;
+  }
+  .footer-section .container .center-align ul li {
+    display: flex;
+    padding: 5px 0px;
+  }
+  .footer-section .container .center-align ul li i {
     color: rgb(246, 0, 2);
     margin-right: 10px;
-  }
-  .footer-section .container .center-align p span {
-    margin-left: 0px;
   }
 }/*# sourceMappingURL=newStyle.css.map */
