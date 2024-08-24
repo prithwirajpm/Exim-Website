@@ -313,6 +313,7 @@ header .headerItems .nav-links .headerlink:hover {
 .group-of-Companies .container .h1-text h1 {
   font-size: 60px;
   text-align: center;
+  font-weight: 400;
 }
 .group-of-Companies .container .h1-text h1 span {
   color: rgb(246, 0, 2);
