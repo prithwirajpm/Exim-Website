@@ -655,6 +655,7 @@ header .headerItems .nav-links .headerlink:hover {
 }
 .our-vision .container .cols {
   display: flex;
+  justify-content: center;
 }
 .our-vision .container .cols .heading-content {
   font-weight: 400;
@@ -696,7 +697,7 @@ header .headerItems .nav-links .headerlink:hover {
 }
 .our-vision .container .cols .image-positions .imag-item-two {
   position: absolute;
-  top: 100px;
+  top: 150px;
   left: 180px;
   bottom: 0px;
   right: 0;
@@ -967,32 +968,108 @@ header .headerItems .nav-links .headerlink:hover {
     font-weight: 100;
     line-height: 1.3;
   }
-  .our-mission .container {
-    display: flex;
+  .our-mission {
+    padding: 50px 0px;
+    background: linear-gradient(to bottom, rgb(43, 45, 66) 30%, #fff 30%);
   }
-  .our-mission .container .heading-content {
+  .our-mission .container .mission-text {
+    font-family: "DM Sans 36pt";
+    color: white;
+    text-align: center;
+  }
+  .our-mission .container .mission-text h1 {
+    font-size: 60px;
     font-weight: 400;
   }
-  .our-mission .container .heading-content h1 {
-    color: #fff;
-    font-size: 60px;
-  }
-  .our-mission .container .heading-content h1 span {
+  .our-mission .container .mission-text h1 span {
     color: rgb(246, 0, 2);
   }
-  .our-mission .container .heading-content p {
-    font-size: 15px;
+  .our-mission .container .mission-text p {
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 1.5;
   }
-  .our-mission .container .image-positions .imag-item {
-    width: 50%;
-    border-radius: 20px;
+  .our-mission .container .mission-image {
+    margin: 40px 0;
+    border-radius: 50px;
     overflow: hidden;
   }
-  .our-mission .container .image-positions .imag-item img {
+  .our-mission .container .mission-image img {
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
+  }
+  .our-vision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+  .our-vision .container {
+    display: flex;
+  }
+  .our-vision .container .cols {
+    display: flex;
+    justify-content: center;
+  }
+  .our-vision .container .cols .heading-content {
+    font-weight: 400;
+    font-family: "DM Sans 36pt";
+  }
+  .our-vision .container .cols .heading-content h1 {
+    color: black;
+    font-size: 60px;
+  }
+  .our-vision .container .cols .heading-content h1 span {
+    color: rgb(246, 0, 2);
+  }
+  .our-vision .container .cols .heading-content p {
+    font-size: 25px;
+  }
+  .our-vision .container .cols .image-positions {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .our-vision .container .cols .image-positions .imag-item-one {
+    width: 70%;
+    height: 100%;
+    z-index: 0;
+    transition: z-index 1.2s ease;
+    transition: width 1.2s ease;
+  }
+  .our-vision .container .cols .image-positions .imag-item-one img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    border-radius: 20px;
+  }
+  .our-vision .container .cols .image-positions .imag-item-one:hover {
+    z-index: 1;
+    width: 75%;
+  }
+  .our-vision .container .cols .image-positions .imag-item-two {
+    position: absolute;
+    top: 150px;
+    left: 180px;
+    bottom: 0px;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    transition: width 1.2s ease;
+  }
+  .our-vision .container .cols .image-positions .imag-item-two img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    border-radius: 20px;
+  }
+  .our-vision .container .cols .image-positions .imag-item-two:hover {
+    width: 75%;
   }
 }
 @media (max-width: 925px) {

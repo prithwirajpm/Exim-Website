@@ -670,6 +670,7 @@ header {
     display: flex;
     .cols {
       display: flex;
+      justify-content: center;
       .heading-content {
         font-weight: 400;
         font-family: "DM Sans 36pt";
@@ -707,7 +708,7 @@ header {
         }
         .imag-item-two {
           position: absolute;
-          top: 100px;
+          top: 150px;
           left: 180px;
           bottom: 0px;
           right: 0;
@@ -989,29 +990,100 @@ header {
   }
 
   .our-mission {
+    padding: 50px 0px;
+    background: linear-gradient(to bottom, rgb(43, 45, 66) 30%, #fff 30%);
     .container {
-      display: flex;
-      .heading-content {
-        font-weight: 400;
+      .mission-text {
+        font-family: "DM Sans 36pt";
+        color: white;
+        text-align: center;
         h1 {
-          color: #fff;
           font-size: 60px;
+          font-weight: 400;
           span {
             color: rgb(246, 0, 2);
           }
         }
         p {
-          font-size: 15px;
+          font-size: 25px;
+          font-weight: 100;
+          line-height: 1.5;
         }
       }
-      .image-positions {
-        .imag-item {
-          width: 50%;
-          border-radius: 20px;
-          overflow: hidden;
-          img {
-            object-fit: cover;
-            object-position: center;
+      .mission-image {
+        margin: 40px 0;
+        border-radius: 50px;
+        overflow: hidden;
+        img {
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+    }
+  }
+
+  .our-vision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    .container {
+      display: flex;
+      .cols {
+        display: flex;
+        justify-content: center;
+        .heading-content {
+          font-weight: 400;
+          font-family: "DM Sans 36pt";
+          h1 {
+            color: black;
+            font-size: 60px;
+            span {
+              color: rgb(246, 0, 2);
+            }
+          }
+          p {
+            font-size: 25px;
+          }
+        }
+        .image-positions {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .imag-item-one {
+            width: 70%;
+            height: 100%;
+            z-index: 0;
+            transition: z-index 1.2s ease;
+            transition: width 1.2s ease;
+            img {
+              object-fit: cover;
+              object-position: center;
+              border-radius: 20px;
+            }
+            &:hover {
+              z-index: 1;
+              width: 75%;
+            }
+          }
+          .imag-item-two {
+            position: absolute;
+            top: 150px;
+            left: 180px;
+            bottom: 0px;
+            right: 0;
+            width: 70%;
+            height: 100%;
+            transition: width 1.2s ease;
+            img {
+              object-fit: cover;
+              object-position: center;
+              border-radius: 20px;
+            }
+            &:hover {
+              width: 75%;
+            }
           }
         }
       }
