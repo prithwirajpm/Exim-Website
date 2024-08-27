@@ -65,7 +65,7 @@ header .headerItems .nav-links .headerlink {
   text-decoration: none;
   line-height: 1;
   border-radius: 14px;
-  font-weight: 400;
+  font-weight: 500;
   transition: background-color 0.4s ease, color 0.4s ease;
   color: #000;
 }
@@ -117,6 +117,7 @@ header .headerItems .nav-links .headerlink:hover {
   height: 100%;
 }
 .banner-section .wrapper .container .banner-content {
+  font-family: "DM Sans 36pt";
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -124,7 +125,8 @@ header .headerItems .nav-links .headerlink:hover {
   height: 100%;
 }
 .banner-section .wrapper .container .banner-content .bannner-text .banner-text-size {
-  font-size: 80px;
+  font-size: 60px;
+  font-weight: 500;
 }
 .banner-section .wrapper .container .banner-content .btn-typ1 {
   flex-grow: 0;
@@ -135,13 +137,13 @@ header .headerItems .nav-links .headerlink:hover {
   background-color: rgb(246, 0, 2);
   border: none;
   font-size: x-large;
-  font-weight: 600;
+  font-weight: 500;
   color: white;
   margin-top: 10px;
   text-decoration: none;
 }
 .banner-section .wrapper .container .banner-content .btn-typ1 .arrowbolder {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 @keyframes fadeIn {
@@ -161,7 +163,7 @@ header .headerItems .nav-links .headerlink:hover {
 .what-we-provide .hd-typ1 {
   font-size: 60px;
   font-family: "DM Sans 36pt";
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25;
   color: white;
 }
@@ -204,8 +206,8 @@ header .headerItems .nav-links .headerlink:hover {
   font-family: "DM Sans 36pt";
   color: #fff;
   padding: 15px;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 25px;
+  font-weight: 100;
 }
 .what-we-provide .img-wrap .cols .btn-typ2 {
   padding: 6px;
@@ -215,7 +217,8 @@ header .headerItems .nav-links .headerlink:hover {
   background-color: rgb(246, 0, 2);
   color: #fff;
   font-family: "DM Sans 36pt";
-  font-weight: 400;
+  font-family: "DM Sans 36pt";
+  font-weight: 100;
   font-size: 16px;
   line-height: 1.875;
   border-radius: 20px;
@@ -230,8 +233,8 @@ header .headerItems .nav-links .headerlink:hover {
 .why-choose-exim .container {
   display: flex;
   color: white;
-  font-size: 24px;
   line-height: 1.3;
+  font-family: "DM Sans 36pt";
 }
 .why-choose-exim .container .cols {
   display: flex;
@@ -240,7 +243,12 @@ header .headerItems .nav-links .headerlink:hover {
   flex-direction: column;
 }
 .why-choose-exim .container .cols h1 {
-  font-size: 50px;
+  font-size: 60px;
+  font-weight: 500;
+}
+.why-choose-exim .container .cols p {
+  font-size: 25px;
+  font-weight: 100;
 }
 .why-choose-exim .container .why-choose-exim-text-color {
   color: rgb(246, 0, 2);
@@ -268,8 +276,8 @@ header .headerItems .nav-links .headerlink:hover {
   font-family: "DM Sans 36pt";
   color: #fff;
   padding: 15px;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 40px;
+  font-weight: 200;
   box-shadow: inset 0px 0px #000;
 }
 .why-choose-exim .img-container .items-image img {
@@ -286,6 +294,7 @@ header .headerItems .nav-links .headerlink:hover {
   height: 650px;
   position: relative;
   overflow: hidden;
+  font-family: "DM Sans 36pt";
 }
 .how-we-work img {
   min-height: 100%;
@@ -307,6 +316,7 @@ header .headerItems .nav-links .headerlink:hover {
 }
 .how-we-work .how-we-work-content .how-we-work-heading h1 {
   font-size: 60px;
+  font-weight: 500;
   color: white;
 }
 .how-we-work .how-we-work-content .how-to-work-status .status-item {
@@ -317,8 +327,8 @@ header .headerItems .nav-links .headerlink:hover {
   padding: 5px 14px;
   border: none;
   color: white;
-  font-size: 400;
-  font-size: 20px;
+  font-size: 500;
+  font-size: 25px;
   background: rgb(246, 0, 2);
   border-radius: 7px;
 }
@@ -346,22 +356,23 @@ header .headerItems .nav-links .headerlink:hover {
 
 .service-section-arround {
   padding: 50px 0px 0px 0px;
+  font-family: "DM Sans 36pt";
 }
 .service-section-arround .service-section {
   text-align: center;
 }
 .service-section-arround .service-section h1 {
   font-size: 60px;
-  font-family: "DM Sans 36pt";
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25;
 }
 .service-section-arround .service-section h1 span {
   color: rgb(246, 0, 2);
 }
 .service-section-arround .service-section p {
-  font-size: 23px;
+  font-size: 25px;
   line-height: 1.3;
+  font-weight: 100;
 }
 
 .group-of-Companies {
@@ -371,11 +382,12 @@ header .headerItems .nav-links .headerlink:hover {
   justify-content: center;
   align-items: center;
   background: rgb(236, 241, 243);
+  font-family: "DM Sans 36pt";
 }
 .group-of-Companies .container .h1-text h1 {
   font-size: 60px;
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
 }
 .group-of-Companies .container .h1-text h1 span {
   color: rgb(246, 0, 2);
@@ -415,6 +427,7 @@ header .headerItems .nav-links .headerlink:hover {
   width: 100%;
   height: 628px;
   overflow: hidden;
+  font-family: "DM Sans 36pt";
 }
 .track-your-shipment img {
   max-width: 100%;
@@ -445,6 +458,8 @@ header .headerItems .nav-links .headerlink:hover {
 }
 .track-your-shipment .Shipment .shipment-order .track-Your-order h1 {
   color: #000;
+  font-size: 60px;
+  font-weight: 500;
 }
 .track-your-shipment .Shipment .shipment-order .track-Your-order h1 span {
   color: rgb(246, 0, 2);
@@ -507,6 +522,7 @@ header .headerItems .nav-links .headerlink:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "DM Sans 36pt";
 }
 .find-us .main-class {
   height: 60%;
@@ -517,6 +533,9 @@ header .headerItems .nav-links .headerlink:hover {
   flex-direction: column;
   justify-content: space-between;
 }
+.find-us .find-us-heading .heading {
+  font-weight: 500;
+}
 .find-us .find-us-heading .heading h1 {
   font-size: 60px;
 }
@@ -524,12 +543,13 @@ header .headerItems .nav-links .headerlink:hover {
   color: rgb(246, 0, 2);
 }
 .find-us .find-us-heading .heading i {
-  color: rgb(246, 0, 2);
+  color: rgb(43, 45, 66);
   font-size: 35px;
   margin: 10px;
 }
 .find-us .find-us-heading .button-heading h1 {
   font-size: 40px;
+  font-weight: 100;
 }
 .find-us .find-us-heading .button-heading button {
   border: none;
@@ -596,6 +616,10 @@ header .headerItems .nav-links .headerlink:hover {
 .footer-section .container .icons-colors i {
   margin-right: 30px;
 }
+.footer-section .container h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
 .footer-section .container .center-align li {
   display: flex;
   padding: 5px 0px;
@@ -608,6 +632,7 @@ header .headerItems .nav-links .headerlink:hover {
 .aboutUs {
   position: relative;
   overflow: hidden;
+  font-family: "DM Sans 36pt";
 }
 .aboutUs img {
   -o-object-fit: cover;
@@ -629,11 +654,10 @@ header .headerItems .nav-links .headerlink:hover {
   width: 100%;
   text-align: center;
   color: white;
-  font-family: "DM Sans 36pt";
 }
 .aboutUs .wrapper .about-content h1 {
   font-size: 60px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .aboutUs .wrapper .about-content h1 span {
   color: rgb(246, 0, 2);
@@ -641,7 +665,7 @@ header .headerItems .nav-links .headerlink:hover {
 .aboutUs .wrapper .about-content p {
   font-size: 25px;
   font-weight: 100;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .our-vision {
@@ -649,6 +673,7 @@ header .headerItems .nav-links .headerlink:hover {
   justify-content: center;
   align-items: center;
   height: 600px;
+  font-family: "DM Sans 36pt";
 }
 .our-vision .container {
   display: flex;
@@ -657,19 +682,18 @@ header .headerItems .nav-links .headerlink:hover {
   display: flex;
   justify-content: center;
 }
-.our-vision .container .cols .heading-content {
-  font-weight: 400;
-  font-family: "DM Sans 36pt";
-}
 .our-vision .container .cols .heading-content h1 {
   color: black;
   font-size: 60px;
+  font-weight: 500;
 }
 .our-vision .container .cols .heading-content h1 span {
   color: rgb(246, 0, 2);
 }
 .our-vision .container .cols .heading-content p {
   font-size: 25px;
+  line-height: 1.2;
+  color: rgb(102, 102, 102);
 }
 .our-vision .container .cols .image-positions {
   position: relative;
@@ -719,15 +743,15 @@ header .headerItems .nav-links .headerlink:hover {
 .our-mission {
   padding: 50px 0px;
   background: linear-gradient(to bottom, rgb(43, 45, 66) 40%, #fff 40%);
+  font-family: "DM Sans 36pt";
 }
 .our-mission .container .mission-text {
-  font-family: "DM Sans 36pt";
   color: white;
   text-align: center;
 }
 .our-mission .container .mission-text h1 {
   font-size: 60px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .our-mission .container .mission-text h1 span {
   color: rgb(246, 0, 2);
@@ -735,7 +759,7 @@ header .headerItems .nav-links .headerlink:hover {
 .our-mission .container .mission-text p {
   font-size: 25px;
   font-weight: 100;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 .our-mission .container .mission-image {
   margin: 40px 0;
@@ -759,7 +783,7 @@ header .headerItems .nav-links .headerlink:hover {
 }
 .core-values .container .core-values-heading h1 {
   font-size: 60px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .core-values .container .core-values-heading h1 span {
   color: rgb(246, 0, 2);
@@ -801,8 +825,8 @@ header .headerItems .nav-links .headerlink:hover {
   width: 30%;
 }
 .core-values .container .core-values-image .First-section .cols .cols-container .items-heading h1 {
-  font-size: 40px;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 500;
   color: #000;
 }
 .core-values .container .core-values-image .First-section .cols .cols-container .items-paragraph p {
@@ -840,14 +864,315 @@ header .headerItems .nav-links .headerlink:hover {
   width: 30%;
 }
 .core-values .container .core-values-image .second-section .cols .cols-container .items-heading h1 {
-  font-size: 40px;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 500;
   color: #000;
 }
 .core-values .container .core-values-image .second-section .cols .cols-container .items-paragraph p {
   text-align: center;
   font-size: 24px;
   line-height: 1.2;
+}
+
+.dangerous-goods {
+  padding: 100px 0px;
+  width: 100%;
+  font-family: "DM Sans 36pt";
+}
+.dangerous-goods .container {
+  display: flex;
+  padding: 0;
+  background: rgb(236, 241, 243);
+  border-radius: 30px;
+  overflow: hidden;
+}
+.dangerous-goods .container .cols-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.dangerous-goods .container .cols-content .content-section {
+  width: 80%;
+}
+.dangerous-goods .container .cols-content .content-section .content-right .content-icon {
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgb(246, 0, 2);
+  width: 60px;
+  height: 60px;
+}
+.dangerous-goods .container .cols-content .content-section .content-right .content-icon img {
+  width: 100%;
+  filter: invert(100%);
+}
+.dangerous-goods .container .cols-content .content-section .content-right .content-heading h1 {
+  font-size: 60px;
+  font-weight: 100;
+}
+.dangerous-goods .container .cols-content .content-section .content-right .content-paragraph p {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.dangerous-goods .container .cols-image {
+  width: 50%;
+  transition: width 1.2s ease;
+}
+.dangerous-goods .container .cols-image .img-container {
+  border-radius: 30px;
+  overflow: hidden;
+}
+.dangerous-goods .container .cols-image .img-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.dangerous-goods .container .cols-image:hover {
+  width: 100%;
+}
+
+.air-freight {
+  padding: 50px 0px;
+  width: 100%;
+  font-family: "DM Sans 36pt";
+}
+.air-freight .container {
+  display: flex;
+  padding: 0;
+  background: rgb(236, 241, 243);
+  border-radius: 30px;
+  overflow: hidden;
+}
+.air-freight .container .cols-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.air-freight .container .cols-content .content-section {
+  width: 80%;
+}
+.air-freight .container .cols-content .content-section .content-right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.air-freight .container .cols-content .content-section .content-right .content-icon {
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgb(246, 0, 2);
+  width: 60px;
+  height: 60px;
+}
+.air-freight .container .cols-content .content-section .content-right .content-icon img {
+  width: 100%;
+  filter: invert(100%);
+}
+.air-freight .container .cols-content .content-section .content-right .content-heading h1 {
+  font-size: 60px;
+  text-align: right;
+  font-weight: 100;
+}
+.air-freight .container .cols-content .content-section .content-right .content-paragraph p {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: right;
+}
+.air-freight .container .cols-image {
+  width: 50%;
+  transition: width 1.2s ease;
+}
+.air-freight .container .cols-image .img-container {
+  border-radius: 30px;
+  overflow: hidden;
+}
+.air-freight .container .cols-image .img-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.air-freight .container .cols-image:hover {
+  width: 100%;
+}
+
+.customs-parehousing-project {
+  padding: 100px 0px;
+}
+.customs-parehousing-project .customs-brokerage {
+  font-family: "DM Sans 36pt";
+  padding: 30px 0px;
+  position: relative;
+}
+.customs-parehousing-project .customs-brokerage .container {
+  display: flex;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-one .container-content {
+  width: 90%;
+  background: rgb(236, 241, 243);
+  border-radius: 30px;
+  height: 520px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-one .container-content .container-not-image {
+  padding: 50px 20px 15px 20px;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-one .container-content .container-not-image .container-heading {
+  text-align: center;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-one .container-content .container-not-image .container-heading h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-one .container-content .container-not-image .container-paragraph p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-one .container-content img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 30px;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-one .logo-icon {
+  position: absolute;
+  top: 0;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgb(246, 0, 2);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-one .logo-icon img {
+  width: 90%;
+  filter: invert(100%);
+}
+.customs-parehousing-project .customs-brokerage .container .cols-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-two .container-content {
+  width: 90%;
+  background: rgb(236, 241, 243);
+  border-radius: 30px;
+  height: 520px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-two .container-content .container-not-image {
+  padding: 50px 20px 15px 20px;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-two .container-content .container-not-image .container-heading {
+  text-align: center;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-two .container-content .container-not-image .container-heading h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-two .container-content .container-not-image .container-paragraph p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-two .container-content img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 30px;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-two .logo-icon {
+  position: absolute;
+  top: 0;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgb(246, 0, 2);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-two .logo-icon img {
+  width: 90%;
+  filter: invert(100%);
+}
+.customs-parehousing-project .customs-brokerage .container .cols-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-three .container-content {
+  width: 90%;
+  background: rgb(236, 241, 243);
+  border-radius: 30px;
+  height: 520px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-three .container-content .container-not-image {
+  padding: 50px 20px 15px 20px;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-three .container-content .container-not-image .container-heading {
+  text-align: center;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-three .container-content .container-not-image .container-heading h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-three .container-content .container-not-image .container-paragraph p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-three .container-content img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 30px;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-three .logo-icon {
+  position: absolute;
+  top: 0;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgb(246, 0, 2);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customs-parehousing-project .customs-brokerage .container .cols-three .logo-icon img {
+  width: 90%;
+  filter: invert(100%);
 }
 
 @media (min-width: 1699px) {
@@ -858,18 +1183,17 @@ header .headerItems .nav-links .headerlink:hover {
   .what-we-provide {
     background: linear-gradient(to bottom, rgb(43, 45, 66) 50%, #fff 50%);
     padding: 50px 0;
+    font-family: "DM Sans 36pt";
   }
   .what-we-provide .hd-typ1 {
-    font-size: 40px;
-    font-family: "DM Sans 36pt";
-    font-weight: 400;
+    font-size: 60px;
+    font-weight: 500;
     line-height: 1.25;
   }
   .what-we-provide .intro-txt {
     margin-top: 30px;
-    font-family: "DM Sans 36pt";
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 25px;
     line-height: 1.875;
   }
   .what-we-provide .img-wrap {
@@ -922,7 +1246,7 @@ header .headerItems .nav-links .headerlink:hover {
     background-color: rgb(246, 0, 2);
     color: #fff;
     font-family: "DM Sans 36pt";
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.875;
     border-radius: 20px;
@@ -932,10 +1256,9 @@ header .headerItems .nav-links .headerlink:hover {
   .aboutUs {
     position: relative;
     overflow: hidden;
+    font-family: "DM Sans 36pt";
   }
   .aboutUs img {
-    max-width: 100%;
-    min-height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center;
@@ -944,67 +1267,36 @@ header .headerItems .nav-links .headerlink:hover {
   .aboutUs .wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     position: absolute;
     top: 0;
+    left: 0px;
     right: 0;
-    bottom: 0;
-    left: 0;
+    bottom: 60px;
   }
-  .aboutUs .wrapper .container .about-content {
+  .aboutUs .wrapper .about-content {
+    width: 100%;
     text-align: center;
     color: white;
-    font-family: "DM Sans 36pt";
   }
-  .aboutUs .wrapper .container .about-content h1 {
-    font-size: 40px;
-    font-weight: 400;
-  }
-  .aboutUs .wrapper .container .about-content h1 span {
-    color: rgb(246, 0, 2);
-  }
-  .aboutUs .wrapper .container .about-content p {
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 1.3;
-  }
-  .our-mission {
-    padding: 50px 0px;
-    background: linear-gradient(to bottom, rgb(43, 45, 66) 30%, #fff 30%);
-  }
-  .our-mission .container .mission-text {
-    font-family: "DM Sans 36pt";
-    color: white;
-    text-align: center;
-  }
-  .our-mission .container .mission-text h1 {
+  .aboutUs .wrapper .about-content h1 {
     font-size: 60px;
-    font-weight: 400;
+    font-weight: 500;
   }
-  .our-mission .container .mission-text h1 span {
+  .aboutUs .wrapper .about-content h1 span {
     color: rgb(246, 0, 2);
   }
-  .our-mission .container .mission-text p {
+  .aboutUs .wrapper .about-content p {
     font-size: 25px;
-    font-weight: 100;
-    line-height: 1.5;
-  }
-  .our-mission .container .mission-image {
-    margin: 40px 0;
-    border-radius: 50px;
-    overflow: hidden;
-  }
-  .our-mission .container .mission-image img {
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: center;
-       object-position: center;
+    font-weight: 500;
+    line-height: 1.3;
   }
   .our-vision {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 600px;
+    font-family: "DM Sans 36pt";
   }
   .our-vision .container {
     display: flex;
@@ -1013,13 +1305,10 @@ header .headerItems .nav-links .headerlink:hover {
     display: flex;
     justify-content: center;
   }
-  .our-vision .container .cols .heading-content {
-    font-weight: 400;
-    font-family: "DM Sans 36pt";
-  }
   .our-vision .container .cols .heading-content h1 {
     color: black;
     font-size: 60px;
+    font-weight: 500;
   }
   .our-vision .container .cols .heading-content h1 span {
     color: rgb(246, 0, 2);
@@ -1071,6 +1360,436 @@ header .headerItems .nav-links .headerlink:hover {
   .our-vision .container .cols .image-positions .imag-item-two:hover {
     width: 75%;
   }
+  .our-mission {
+    padding: 50px 0px;
+    background: linear-gradient(to bottom, rgb(43, 45, 66) 40%, #fff 40%);
+    font-family: "DM Sans 36pt";
+  }
+  .our-mission .container .mission-text {
+    color: white;
+    text-align: center;
+  }
+  .our-mission .container .mission-text h1 {
+    font-size: 60px;
+    font-weight: 500;
+  }
+  .our-mission .container .mission-text h1 span {
+    color: rgb(246, 0, 2);
+  }
+  .our-mission .container .mission-text p {
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 1.5;
+  }
+  .our-mission .container .mission-image {
+    margin: 40px 0;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  .our-mission .container .mission-image img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .core-values {
+    font-family: "DM Sans 36pt";
+    padding: 0px 0px 100px 0px;
+  }
+  .core-values .container .core-values-heading {
+    color: black;
+    text-align: center;
+  }
+  .core-values .container .core-values-heading h1 {
+    font-size: 60px;
+    font-weight: 500;
+  }
+  .core-values .container .core-values-heading h1 span {
+    color: rgb(246, 0, 2);
+  }
+  .core-values .container .core-values-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+  }
+  .core-values .container .core-values-image .First-section {
+    display: flex;
+    justify-content: space-around;
+  }
+  .core-values .container .core-values-image .First-section .cols {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .core-values .container .core-values-image .First-section .cols .cols-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .core-values .container .core-values-image .First-section .cols .cols-container .items-image {
+    width: 20%;
+    transition: width 1.3s ease;
+  }
+  .core-values .container .core-values-image .First-section .cols .cols-container .items-image img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    filter: invert(21%) sepia(98%) saturate(7488%) hue-rotate(-4deg) brightness(98%) contrast(116%);
+  }
+  .core-values .container .core-values-image .First-section .cols .cols-container .items-image:hover {
+    width: 30%;
+  }
+  .core-values .container .core-values-image .First-section .cols .cols-container .items-heading h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #000;
+  }
+  .core-values .container .core-values-image .First-section .cols .cols-container .items-paragraph p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  .core-values .container .core-values-image .second-section {
+    display: flex;
+    justify-content: center;
+  }
+  .core-values .container .core-values-image .second-section .cols {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .core-values .container .core-values-image .second-section .cols .cols-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .core-values .container .core-values-image .second-section .cols .cols-container .items-image {
+    width: 20%;
+    transition: width 1.3s ease;
+  }
+  .core-values .container .core-values-image .second-section .cols .cols-container .items-image img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    filter: invert(21%) sepia(98%) saturate(7488%) hue-rotate(-4deg) brightness(98%) contrast(116%);
+  }
+  .core-values .container .core-values-image .second-section .cols .cols-container .items-image:hover {
+    width: 30%;
+  }
+  .core-values .container .core-values-image .second-section .cols .cols-container .items-heading h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #000;
+  }
+  .core-values .container .core-values-image .second-section .cols .cols-container .items-paragraph p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  .dangerous-goods {
+    padding: 100px 0px;
+    width: 100%;
+    font-family: "DM Sans 36pt";
+  }
+  .dangerous-goods .container {
+    display: flex;
+    padding: 0;
+    background: rgb(236, 241, 243);
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  .dangerous-goods .container .cols-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  .dangerous-goods .container .cols-content .content-section {
+    width: 80%;
+  }
+  .dangerous-goods .container .cols-content .content-section .content-right .content-icon {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(246, 0, 2);
+    width: 60px;
+    height: 60px;
+  }
+  .dangerous-goods .container .cols-content .content-section .content-right .content-icon img {
+    width: 100%;
+    filter: invert(100%);
+  }
+  .dangerous-goods .container .cols-content .content-section .content-right .content-heading h1 {
+    font-size: 60px;
+    font-weight: 100;
+  }
+  .dangerous-goods .container .cols-content .content-section .content-right .content-paragraph p {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .dangerous-goods .container .cols-image {
+    width: 50%;
+    transition: width 1.2s ease;
+  }
+  .dangerous-goods .container .cols-image .img-container {
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  .dangerous-goods .container .cols-image .img-container img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .dangerous-goods .container .cols-image:hover {
+    width: 100%;
+  }
+  .air-freight {
+    padding: 50px 0px;
+    width: 100%;
+    font-family: "DM Sans 36pt";
+  }
+  .air-freight .container {
+    display: flex;
+    padding: 0;
+    background: rgb(236, 241, 243);
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  .air-freight .container .cols-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  .air-freight .container .cols-content .content-section {
+    width: 80%;
+  }
+  .air-freight .container .cols-content .content-section .content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .air-freight .container .cols-content .content-section .content-right .content-icon {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(246, 0, 2);
+    width: 60px;
+    height: 60px;
+  }
+  .air-freight .container .cols-content .content-section .content-right .content-icon img {
+    width: 100%;
+    filter: invert(100%);
+  }
+  .air-freight .container .cols-content .content-section .content-right .content-heading h1 {
+    font-size: 60px;
+    text-align: right;
+    font-weight: 100;
+  }
+  .air-freight .container .cols-content .content-section .content-right .content-paragraph p {
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: right;
+  }
+  .air-freight .container .cols-image {
+    width: 50%;
+    transition: width 1.2s ease;
+  }
+  .air-freight .container .cols-image .img-container {
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  .air-freight .container .cols-image .img-container img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .air-freight .container .cols-image:hover {
+    width: 100%;
+  }
+  .customs-parehousing-project {
+    padding: 100px 0px;
+  }
+  .customs-parehousing-project .customs-brokerage {
+    font-family: "DM Sans 36pt";
+    padding: 30px 0px;
+    position: relative;
+  }
+  .customs-parehousing-project .customs-brokerage .container {
+    display: flex;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .container-content {
+    width: 90%;
+    background: rgb(236, 241, 243);
+    border-radius: 30px;
+    height: 520px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .container-content .container-not-image {
+    padding: 50px 20px 15px 20px;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .container-content .container-not-image .container-heading {
+    text-align: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .container-content .container-not-image .container-heading h1 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .container-content .container-not-image .container-paragraph p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .container-content img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    border-radius: 30px;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .logo-icon {
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(246, 0, 2);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .logo-icon img {
+    width: 90%;
+    filter: invert(100%);
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .container-content {
+    width: 90%;
+    background: rgb(236, 241, 243);
+    border-radius: 30px;
+    height: 520px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .container-content .container-not-image {
+    padding: 50px 20px 15px 20px;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .container-content .container-not-image .container-heading {
+    text-align: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .container-content .container-not-image .container-heading h1 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .container-content .container-not-image .container-paragraph p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .container-content img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    border-radius: 30px;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .logo-icon {
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(246, 0, 2);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .logo-icon img {
+    width: 90%;
+    filter: invert(100%);
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .container-content {
+    width: 90%;
+    background: rgb(236, 241, 243);
+    border-radius: 30px;
+    height: 520px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .container-content .container-not-image {
+    padding: 50px 20px 15px 20px;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .container-content .container-not-image .container-heading {
+    text-align: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .container-content .container-not-image .container-heading h1 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .container-content .container-not-image .container-paragraph p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .container-content img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    border-radius: 30px;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .logo-icon {
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(246, 0, 2);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .logo-icon img {
+    width: 90%;
+    filter: invert(100%);
+  }
 }
 @media (max-width: 925px) {
   header {
@@ -1102,7 +1821,7 @@ header .headerItems .nav-links .headerlink:hover {
     text-decoration: none;
     line-height: 1;
     border-radius: 14px;
-    font-weight: 400;
+    font-weight: 500;
     transition: background-color 0.4s ease, color 0.4s ease;
     color: #000;
   }
@@ -1135,7 +1854,7 @@ header .headerItems .nav-links .headerlink:hover {
     height: 100%;
   }
   .banner-section .wrapper .container .banner-content .bannner-text .banner-text-size {
-    font-size: 40px;
+    font-size: 30px;
   }
   .banner-section .wrapper .container .banner-content .btn-typ1 {
     flex-grow: 0;
@@ -1157,9 +1876,9 @@ header .headerItems .nav-links .headerlink:hover {
     padding: 50px 0;
   }
   .what-we-provide .hd-typ1 {
-    font-size: 40px;
+    font-size: 30px;
     font-family: "DM Sans 36pt";
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.25;
     color: white;
   }
@@ -1170,7 +1889,7 @@ header .headerItems .nav-links .headerlink:hover {
     margin-top: 30px;
     font-family: "DM Sans 36pt";
     font-weight: 100;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.3;
     text-align: center;
     color: white;
@@ -1199,8 +1918,8 @@ header .headerItems .nav-links .headerlink:hover {
     background-color: rgb(246, 0, 2);
     color: #fff;
     font-family: "DM Sans 36pt";
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 15px;
     line-height: 1.875;
     border-radius: 20px;
     border: none;
@@ -1209,6 +1928,7 @@ header .headerItems .nav-links .headerlink:hover {
   .why-choose-exim {
     background: linear-gradient(to bottom, rgb(43, 45, 66) 60%, #fff 50%);
     padding: 60px 0;
+    font-family: "DM Sans 36pt";
   }
   .why-choose-exim .container {
     display: flex;
@@ -1245,6 +1965,9 @@ header .headerItems .nav-links .headerlink:hover {
     border-radius: 20px;
     overflow: hidden;
   }
+  .why-choose-exim .img-container .items-image .img-label {
+    font-size: 25px;
+  }
   .why-choose-exim .img-container .items-image img {
     min-height: 100%;
     max-width: 100%;
@@ -1258,6 +1981,7 @@ header .headerItems .nav-links .headerlink:hover {
     height: 100%;
     position: relative;
     overflow: hidden;
+    font-family: "DM Sans 36pt";
   }
   .how-we-work img {
     min-height: 100%;
@@ -1319,14 +2043,14 @@ header .headerItems .nav-links .headerlink:hover {
   }
   .service-section-arround {
     padding: 0px 0px 0px 0px;
+    font-family: "DM Sans 36pt";
   }
   .service-section-arround .service-section {
     text-align: center;
   }
   .service-section-arround .service-section h1 {
     font-size: 30px;
-    font-family: "DM Sans 36pt";
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.25;
   }
   .service-section-arround .service-section h1 span {
@@ -1347,7 +2071,7 @@ header .headerItems .nav-links .headerlink:hover {
     padding: 20px 0px;
   }
   .group-of-Companies .container .h1-text h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
   }
   .group-of-Companies .container .h1-text h1 span {
@@ -1371,7 +2095,7 @@ header .headerItems .nav-links .headerlink:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 50%;
     overflow: hidden;
   }
   .group-of-Companies .container .comapanies-container .image-lable .item-image img {
@@ -1388,6 +2112,7 @@ header .headerItems .nav-links .headerlink:hover {
     width: 100%;
     height: 628px;
     overflow: hidden;
+    font-family: "DM Sans 36pt";
   }
   .track-your-shipment img {
     max-width: 100%;
@@ -1417,6 +2142,7 @@ header .headerItems .nav-links .headerlink:hover {
     padding: 50px;
   }
   .track-your-shipment .Shipment .shipment-order .track-Your-order h1 {
+    font-size: 27px;
     color: #000;
   }
   .track-your-shipment .Shipment .shipment-order .track-Your-order h1 span {
@@ -1466,9 +2192,9 @@ header .headerItems .nav-links .headerlink:hover {
     background-color: rgb(246, 0, 2);
     color: white;
     border: none;
-    border-radius: 10px;
-    padding: 8px 20px;
-    font-size: 20px;
+    border-radius: 5px;
+    padding: 4px 15px;
+    font-size: 15px;
   }
   .find-us {
     width: 100%;
@@ -1479,6 +2205,7 @@ header .headerItems .nav-links .headerlink:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "DM Sans 36pt";
   }
   .find-us .main-class {
     height: 60%;
@@ -1496,28 +2223,30 @@ header .headerItems .nav-links .headerlink:hover {
     text-align: center;
   }
   .find-us .find-us-heading .heading h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .find-us .find-us-heading .heading h1 span {
     color: rgb(246, 0, 2);
   }
   .find-us .find-us-heading .heading i {
-    color: rgb(246, 0, 2);
+    color: rgb(43, 45, 66);
     font-size: 25px;
     margin: 10px;
   }
   .find-us .find-us-heading .button-heading h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .find-us .find-us-heading .button-heading button {
     border: none;
     background: rgb(246, 0, 2);
     color: white;
-    padding: 8px 14px;
-    border-radius: 10px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 12px;
   }
   .find-us .find-us-heading .button-heading button i {
     padding-right: 5px;
+    font-size: 12px;
   }
   .find-us .image-group {
     display: flex;
@@ -1597,6 +2326,7 @@ header .headerItems .nav-links .headerlink:hover {
   .aboutUs {
     position: relative;
     overflow: hidden;
+    font-family: "DM Sans 36pt";
   }
   .aboutUs img {
     max-width: 100%;
@@ -1619,24 +2349,24 @@ header .headerItems .nav-links .headerlink:hover {
   .aboutUs .wrapper .container .about-content {
     text-align: center;
     color: white;
-    font-family: "DM Sans 36pt";
   }
   .aboutUs .wrapper .container .about-content h1 {
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 500;
   }
   .aboutUs .wrapper .container .about-content h1 span {
     color: rgb(246, 0, 2);
   }
   .aboutUs .wrapper .container .about-content p {
-    font-size: 15px;
+    font-size: 13px;
   }
   .our-vision {
     display: flex;
     justify-content: center;
     align-items: start;
-    height: 550px;
+    height: 490px;
     padding: 50px 0px;
+    font-family: "DM Sans 36pt";
   }
   .our-vision .container {
     display: flex;
@@ -1650,12 +2380,11 @@ header .headerItems .nav-links .headerlink:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    font-weight: 400;
-    font-family: "DM Sans 36pt";
+    font-weight: 500;
   }
   .our-vision .container .cols .heading-content h1 {
     color: black;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
   }
   .our-vision .container .cols .heading-content h1 span {
@@ -1694,8 +2423,8 @@ header .headerItems .nav-links .headerlink:hover {
   }
   .our-vision .container .cols .image-positions .imag-item-two {
     position: absolute;
-    top: 100px;
-    left: 150px;
+    top: 55px;
+    left: 140px;
     bottom: 0px;
     right: 0;
     width: 50%;
@@ -1714,17 +2443,17 @@ header .headerItems .nav-links .headerlink:hover {
     width: 55%;
   }
   .our-mission {
-    padding: 50px 0px;
-    background: linear-gradient(to bottom, rgb(43, 45, 66) 50%, #fff 50%);
+    padding: 20px 0px;
+    background: linear-gradient(to bottom, rgb(43, 45, 66) 60%, #fff 60%);
+    font-family: "DM Sans 36pt";
   }
   .our-mission .container .mission-text {
-    font-family: "DM Sans 36pt";
     color: white;
     text-align: center;
   }
   .our-mission .container .mission-text h1 {
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 500;
   }
   .our-mission .container .mission-text h1 span {
     color: rgb(246, 0, 2);
@@ -1732,11 +2461,10 @@ header .headerItems .nav-links .headerlink:hover {
   .our-mission .container .mission-text p {
     font-size: 15px;
     font-weight: 100;
-    line-height: 1.5;
   }
   .our-mission .container .mission-image {
     margin: 0px 0px;
-    border-radius: 50px;
+    border-radius: 30px;
     overflow: hidden;
   }
   .our-mission .container .mission-image img {
@@ -1747,15 +2475,15 @@ header .headerItems .nav-links .headerlink:hover {
   }
   .core-values {
     font-family: "DM Sans 36pt";
-    padding: 0px 0px 100px 0px;
+    padding: 50px 0px 50px 0px;
   }
   .core-values .container .core-values-heading {
     color: black;
     text-align: center;
   }
   .core-values .container .core-values-heading h1 {
-    font-size: 60px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 500;
   }
   .core-values .container .core-values-heading h1 span {
     color: rgb(246, 0, 2);
@@ -1800,13 +2528,13 @@ header .headerItems .nav-links .headerlink:hover {
     width: 30%;
   }
   .core-values .container .core-values-image .First-section .cols .cols-container .items-heading h1 {
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500;
     color: #000;
   }
   .core-values .container .core-values-image .First-section .cols .cols-container .items-paragraph p {
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.2;
   }
   .core-values .container .core-values-image .second-section {
@@ -1841,13 +2569,333 @@ header .headerItems .nav-links .headerlink:hover {
     width: 30%;
   }
   .core-values .container .core-values-image .second-section .cols .cols-container .items-heading h1 {
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500;
     color: #000;
   }
   .core-values .container .core-values-image .second-section .cols .cols-container .items-paragraph p {
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.2;
+  }
+  .dangerous-goods {
+    padding: 30px 0px;
+    width: 100%;
+    font-family: "DM Sans 36pt";
+  }
+  .dangerous-goods .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background: rgb(236, 241, 243);
+    border-radius: 30px;
+    overflow: hidden;
+    width: 80%;
+  }
+  .dangerous-goods .container .cols-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .dangerous-goods .container .cols-content .content-section {
+    width: 80%;
+  }
+  .dangerous-goods .container .cols-content .content-section .content-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .dangerous-goods .container .cols-content .content-section .content-right .content-icon {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(246, 0, 2);
+    width: 60px;
+    height: 60px;
+  }
+  .dangerous-goods .container .cols-content .content-section .content-right .content-icon img {
+    width: 100%;
+    filter: invert(100%);
+  }
+  .dangerous-goods .container .cols-content .content-section .content-right .content-heading h1 {
+    font-size: 30px;
+    font-weight: 100;
+    text-align: right;
+  }
+  .dangerous-goods .container .cols-content .content-section .content-right .content-paragraph p {
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: right;
+  }
+  .dangerous-goods .container .cols-image {
+    width: 50%;
+    transition: width 1.2s ease;
+  }
+  .dangerous-goods .container .cols-image .img-container {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .dangerous-goods .container .cols-image .img-container img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .dangerous-goods .container .cols-image .img-container:hover {
+    width: 100%;
+  }
+  .dangerous-goods .container .cols-image:hover {
+    width: 100%;
+  }
+  .air-freight {
+    padding: 30px 0px;
+    width: 100%;
+    font-family: "DM Sans 36pt";
+  }
+  .air-freight .container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+    background: rgb(236, 241, 243);
+    border-radius: 30px;
+    overflow: hidden;
+    width: 80%;
+  }
+  .air-freight .container .cols-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .air-freight .container .cols-content .content-section {
+    width: 80%;
+  }
+  .air-freight .container .cols-content .content-section .content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .air-freight .container .cols-content .content-section .content-right .content-icon {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(246, 0, 2);
+    width: 60px;
+    height: 60px;
+  }
+  .air-freight .container .cols-content .content-section .content-right .content-icon img {
+    width: 100%;
+    filter: invert(100%);
+  }
+  .air-freight .container .cols-content .content-section .content-right .content-heading h1 {
+    font-size: 30px;
+    text-align: right;
+    font-weight: 100;
+  }
+  .air-freight .container .cols-content .content-section .content-right .content-paragraph p {
+    font-size: 15px;
+    line-height: 1.2;
+    text-align: right;
+  }
+  .air-freight .container .cols-image {
+    width: 50%;
+    transition: width 1.2s ease;
+  }
+  .air-freight .container .cols-image .img-container {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .air-freight .container .cols-image .img-container img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .air-freight .container .cols-image:hover {
+    width: 100%;
+  }
+  .customs-parehousing-project {
+    padding: 20px 0px;
+  }
+  .customs-parehousing-project .customs-brokerage {
+    font-family: "DM Sans 36pt";
+    padding: 30px 0px;
+  }
+  .customs-parehousing-project .customs-brokerage .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one {
+    padding: 30px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .container-content {
+    width: 90%;
+    background: rgb(236, 241, 243);
+    border-radius: 30px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .container-content .container-not-image {
+    padding: 50px 20px 15px 20px;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .container-content .container-not-image .container-heading {
+    text-align: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .container-content .container-not-image .container-heading h1 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .container-content .container-not-image .container-paragraph p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.2;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .container-content img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    border-radius: 30px;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .logo-icon {
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(246, 0, 2);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-one .logo-icon img {
+    width: 90%;
+    filter: invert(100%);
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two {
+    padding: 30px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .container-content {
+    width: 90%;
+    background: rgb(236, 241, 243);
+    border-radius: 30px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .container-content .container-not-image {
+    padding: 50px 20px 15px 20px;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .container-content .container-not-image .container-heading {
+    text-align: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .container-content .container-not-image .container-heading h1 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .container-content .container-not-image .container-paragraph p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.2;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .container-content img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    border-radius: 30px;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .logo-icon {
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(246, 0, 2);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-two .logo-icon img {
+    width: 90%;
+    filter: invert(100%);
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three {
+    padding: 30px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .container-content {
+    width: 90%;
+    background: rgb(236, 241, 243);
+    border-radius: 30px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .container-content .container-not-image {
+    padding: 50px 20px 15px 20px;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .container-content .container-not-image .container-heading {
+    text-align: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .container-content .container-not-image .container-heading h1 {
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .container-content .container-not-image .container-paragraph p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.2;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .container-content img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    border-radius: 30px;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .logo-icon {
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(246, 0, 2);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .customs-parehousing-project .customs-brokerage .container .cols-three .logo-icon img {
+    width: 90%;
+    filter: invert(100%);
   }
 }/*# sourceMappingURL=newStyle.css.map */
