@@ -36,29 +36,30 @@ img {
   max-width: 100%;
 }
 
-header {
+.section-nav-menu {
+  display: block;
   background: #fff;
   padding: 20px 0;
 }
-header .headerItems {
+.section-nav-menu .headerItems {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
-header .headerItems .logowrap {
+.section-nav-menu .headerItems .logowrap {
   max-width: 272px;
 }
-header .headerItems .logowrap a {
+.section-nav-menu .headerItems .logowrap a {
   display: block;
 }
-header .headerItems .nav-links {
+.section-nav-menu .headerItems .nav-links {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 3px;
 }
-header .headerItems .nav-links .headerlink {
+.section-nav-menu .headerItems .nav-links .headerlink {
   padding: 7px 40px;
   font-size: 25px;
   font-family: "DM Sans 36pt";
@@ -69,13 +70,78 @@ header .headerItems .nav-links .headerlink {
   transition: background-color 0.4s ease, color 0.4s ease;
   color: #000;
 }
-header .headerItems .nav-links .headerlink.active {
+.section-nav-menu .headerItems .nav-links .headerlink.active {
   color: #fff;
   background-color: rgb(246, 0, 2);
 }
-header .headerItems .nav-links .headerlink:hover {
+.section-nav-menu .headerItems .nav-links .headerlink:hover {
   color: #fff;
   background-color: rgb(246, 0, 2);
+}
+
+.mobil-section-nav-menu {
+  display: none;
+  background: white;
+  position: static;
+}
+.mobil-section-nav-menu .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobil-section-nav-menu .container .container-logo {
+  width: 150px;
+}
+.mobil-section-nav-menu .container .container-logo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.mobil-section-nav-menu .container .container-menu-arrow button {
+  background-color: #fff;
+  border: solid 1px rgb(43, 45, 66);
+  border-radius: 3px;
+}
+.mobil-section-nav-menu .container .container-menu-arrow button i {
+  font-size: 30px;
+  color: rgb(43, 45, 66);
+  padding: 0px;
+  transition: font-size 1.2s ease;
+}
+.mobil-section-nav-menu .container .container-menu-arrow button i:hover {
+  font-size: 32px;
+}
+.mobil-section-nav-menu .nav-links-main {
+  background-color: rgb(43, 45, 66);
+  position: absolute;
+  z-index: 100;
+  top: 0px;
+  right: -100%; /* Initially hide the menu off-screen */
+  width: 80%; /* Adjust width as needed */
+  height: 100%;
+  transition: right 0.3s ease; /* Smooth transition effect */
+}
+.mobil-section-nav-menu .nav-links-main.active {
+  right: 0; /* Slide in from right to left */
+}
+.mobil-section-nav-menu .nav-links-main .nav-links {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.mobil-section-nav-menu .nav-links-main .nav-links .headerlink {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 20px;
+}
+.mobil-section-nav-menu .nav-links-main .nav-links .headerlink:hover {
+  color: rgb(246, 0, 2);
+}
+.mobil-section-nav-menu .nav-links-main .nav-links .headerlink.active {
+  color: rgb(246, 0, 2);
 }
 
 .scroll-section {
@@ -188,10 +254,16 @@ header .headerItems .nav-links .headerlink:hover {
   flex-direction: column;
   gap: 30px;
   padding: 0 15px;
-  width: 22.778%;
+  width: 21.55%;
 }
 .what-we-provide .img-wrap .cols:first-child {
-  width: 51.62%;
+  width: 55%;
+}
+.what-we-provide .img-wrap .cols:last-child {
+  width: 23%;
+}
+.what-we-provide .img-wrap .cols:last-child .item {
+  height: 133px;
 }
 .what-we-provide .img-wrap .cols .item {
   border-radius: 20px;
@@ -410,6 +482,7 @@ header .headerItems .nav-links .headerlink:hover {
   justify-content: center;
   align-items: center;
   width: 60%;
+  height: 140px;
   overflow: hidden;
 }
 .group-of-Companies .container .comapanies-container .image-lable .item-image img {
@@ -1176,6 +1249,71 @@ header .headerItems .nav-links .headerlink:hover {
 }
 
 @media (min-width: 1699px) {
+  .mobil-section-nav-menu {
+    display: none;
+    background: white;
+    position: static;
+  }
+  .mobil-section-nav-menu .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mobil-section-nav-menu .container .container-logo {
+    width: 170px;
+  }
+  .mobil-section-nav-menu .container .container-logo img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .mobil-section-nav-menu .container .container-menu-arrow button {
+    background-color: #fff;
+    border: solid 1px rgb(43, 45, 66);
+    border-radius: 3px;
+  }
+  .mobil-section-nav-menu .container .container-menu-arrow button i {
+    font-size: 30px;
+    color: rgb(43, 45, 66);
+    padding: 0px;
+    transition: font-size 1.2s ease;
+  }
+  .mobil-section-nav-menu .container .container-menu-arrow button i:hover {
+    font-size: 32px;
+  }
+  .mobil-section-nav-menu .nav-links-main {
+    display: none;
+    background-color: rgb(43, 45, 66);
+    position: absolute;
+    z-index: 100;
+    top: 0px;
+    right: -100%; /* Initially hide the menu off-screen */
+    width: 80%; /* Adjust width as needed */
+    height: 100%;
+    transition: right 1.3s ease-in-out; /* Smooth transition effect */
+  }
+  .mobil-section-nav-menu .nav-links-main.active {
+    right: 0; /* Slide in from right to left */
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink:hover {
+    color: rgb(246, 0, 2);
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink.active {
+    color: rgb(246, 0, 2);
+  }
   .container {
     max-width: 1598px;
     padding: 0;
@@ -1792,29 +1930,30 @@ header .headerItems .nav-links .headerlink:hover {
   }
 }
 @media (max-width: 925px) {
-  header {
-    background: white;
+  .section-nav-menu {
+    display: none;
+    background: #fff;
     padding: 20px 0;
   }
-  header .headerItems {
+  .section-nav-menu .headerItems {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
-  header .headerItems .logowrap {
-    max-width: 150px;
+  .section-nav-menu .headerItems .logowrap {
+    max-width: 272px;
   }
-  header .headerItems .logowrap a {
+  .section-nav-menu .headerItems .logowrap a {
     display: block;
   }
-  header .headerItems .nav-links {
+  .section-nav-menu .headerItems .nav-links {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 3px;
   }
-  header .headerItems .nav-links .headerlink {
-    display: none;
+  .section-nav-menu .headerItems .nav-links .headerlink {
     padding: 7px 40px;
     font-size: 25px;
     font-family: "DM Sans 36pt";
@@ -1825,13 +1964,78 @@ header .headerItems .nav-links .headerlink:hover {
     transition: background-color 0.4s ease, color 0.4s ease;
     color: #000;
   }
-  header .headerItems .nav-links .headerlink.active {
+  .section-nav-menu .headerItems .nav-links .headerlink.active {
     color: #fff;
     background-color: rgb(246, 0, 2);
   }
-  header .headerItems .nav-links .headerlink:hover {
+  .section-nav-menu .headerItems .nav-links .headerlink:hover {
     color: #fff;
     background-color: rgb(246, 0, 2);
+  }
+  .mobil-section-nav-menu {
+    display: block;
+    background: white;
+    position: static;
+  }
+  .mobil-section-nav-menu .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mobil-section-nav-menu .container .container-logo {
+    width: 170px;
+  }
+  .mobil-section-nav-menu .container .container-logo img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .mobil-section-nav-menu .container .container-menu-arrow button {
+    background-color: #fff;
+    border: solid 1px rgb(43, 45, 66);
+    border-radius: 3px;
+  }
+  .mobil-section-nav-menu .container .container-menu-arrow button i {
+    font-size: 30px;
+    color: rgb(43, 45, 66);
+    padding: 0px;
+    transition: font-size 1.2s ease;
+  }
+  .mobil-section-nav-menu .container .container-menu-arrow button i:hover {
+    font-size: 32px;
+  }
+  .mobil-section-nav-menu .nav-links-main {
+    display: none;
+    background-color: rgb(43, 45, 66);
+    position: absolute;
+    z-index: 100;
+    top: 0px;
+    right: -100%; /* Initially hide the menu off-screen */
+    width: 80%; /* Adjust width as needed */
+    height: 100%;
+    transition: right 1.3s ease-in-out; /* Smooth transition effect */
+  }
+  .mobil-section-nav-menu .nav-links-main.active {
+    right: 0; /* Slide in from right to left */
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink:hover {
+    color: rgb(246, 0, 2);
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink.active {
+    color: rgb(246, 0, 2);
   }
   .banner-section {
     position: relative;
@@ -1854,18 +2058,18 @@ header .headerItems .nav-links .headerlink:hover {
     height: 100%;
   }
   .banner-section .wrapper .container .banner-content .bannner-text .banner-text-size {
-    font-size: 30px;
+    font-size: 20px;
   }
   .banner-section .wrapper .container .banner-content .btn-typ1 {
     flex-grow: 0;
     max-width: -moz-max-content;
     max-width: max-content;
-    padding: 6px 20px;
-    border-radius: 20px;
+    padding: 4px 10px;
+    border-radius: 8px;
     background-color: rgb(246, 0, 2);
     border: none;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 400;
     color: white;
   }
   .banner-section .wrapper .container .banner-content .btn-typ1 .arrowbolder {
@@ -1876,7 +2080,7 @@ header .headerItems .nav-links .headerlink:hover {
     padding: 50px 0;
   }
   .what-we-provide .hd-typ1 {
-    font-size: 30px;
+    font-size: 20px;
     font-family: "DM Sans 36pt";
     font-weight: 500;
     line-height: 1.25;
@@ -1889,7 +2093,7 @@ header .headerItems .nav-links .headerlink:hover {
     margin-top: 30px;
     font-family: "DM Sans 36pt";
     font-weight: 100;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.3;
     text-align: center;
     color: white;
@@ -1906,6 +2110,13 @@ header .headerItems .nav-links .headerlink:hover {
   .what-we-provide .img-wrap .cols:first-child {
     width: 100%;
   }
+  .what-we-provide .img-wrap .cols:last-child {
+    width: 100%;
+  }
+  .what-we-provide .img-wrap .cols:last-child .item {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
   .what-we-provide .img-wrap .cols .item {
     border-radius: 20px;
     overflow: hidden;
@@ -1919,14 +2130,14 @@ header .headerItems .nav-links .headerlink:hover {
     color: #fff;
     font-family: "DM Sans 36pt";
     font-weight: 500;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.875;
     border-radius: 20px;
     border: none;
     outline: none;
   }
   .why-choose-exim {
-    background: linear-gradient(to bottom, rgb(43, 45, 66) 60%, #fff 50%);
+    background: linear-gradient(to bottom, rgb(43, 45, 66) 30%, #fff 30%);
     padding: 60px 0;
     font-family: "DM Sans 36pt";
   }
@@ -1935,7 +2146,6 @@ header .headerItems .nav-links .headerlink:hover {
     align-items: center;
     flex-direction: column;
     color: white;
-    font-size: 15px;
     line-height: 1.3;
     text-align: center;
   }
@@ -1946,7 +2156,10 @@ header .headerItems .nav-links .headerlink:hover {
     flex-direction: column;
   }
   .why-choose-exim .container .cols h1 {
-    font-size: 30px;
+    font-size: 20px;
+  }
+  .why-choose-exim .container .cols p {
+    font-size: 12px;
   }
   .why-choose-exim .container .why-choose-exim-text-color {
     color: rgb(246, 0, 2);
@@ -1966,7 +2179,7 @@ header .headerItems .nav-links .headerlink:hover {
     overflow: hidden;
   }
   .why-choose-exim .img-container .items-image .img-label {
-    font-size: 25px;
+    font-size: 15px;
   }
   .why-choose-exim .img-container .items-image img {
     min-height: 100%;
@@ -2049,7 +2262,7 @@ header .headerItems .nav-links .headerlink:hover {
     text-align: center;
   }
   .service-section-arround .service-section h1 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.25;
   }
@@ -2057,7 +2270,7 @@ header .headerItems .nav-links .headerlink:hover {
     color: rgb(246, 0, 2);
   }
   .service-section-arround .service-section p {
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.3;
   }
   .group-of-Companies {
@@ -2071,7 +2284,7 @@ header .headerItems .nav-links .headerlink:hover {
     padding: 20px 0px;
   }
   .group-of-Companies .container .h1-text h1 {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
   .group-of-Companies .container .h1-text h1 span {
@@ -2142,7 +2355,7 @@ header .headerItems .nav-links .headerlink:hover {
     padding: 50px;
   }
   .track-your-shipment .Shipment .shipment-order .track-Your-order h1 {
-    font-size: 27px;
+    font-size: 22px;
     color: #000;
   }
   .track-your-shipment .Shipment .shipment-order .track-Your-order h1 span {
@@ -2223,18 +2436,18 @@ header .headerItems .nav-links .headerlink:hover {
     text-align: center;
   }
   .find-us .find-us-heading .heading h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
   .find-us .find-us-heading .heading h1 span {
     color: rgb(246, 0, 2);
   }
   .find-us .find-us-heading .heading i {
     color: rgb(43, 45, 66);
-    font-size: 25px;
+    font-size: 15px;
     margin: 10px;
   }
   .find-us .find-us-heading .button-heading h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
   .find-us .find-us-heading .button-heading button {
     border: none;
@@ -2296,8 +2509,14 @@ header .headerItems .nav-links .headerlink:hover {
     display: flex;
     flex-direction: column;
   }
+  .footer-section .container p {
+    font-size: 12px;
+  }
+  .footer-section .container h1 {
+    font-size: 20px;
+  }
   .footer-section .container .logo-image {
-    width: 200px;
+    width: 150px;
     overflow: hidden;
   }
   .footer-section .container .logo-image img {
@@ -2318,6 +2537,7 @@ header .headerItems .nav-links .headerlink:hover {
   .footer-section .container .center-align ul li {
     display: flex;
     padding: 5px 0px;
+    font-size: 12px;
   }
   .footer-section .container .center-align ul li i {
     color: rgb(246, 0, 2);
@@ -2351,7 +2571,7 @@ header .headerItems .nav-links .headerlink:hover {
     color: white;
   }
   .aboutUs .wrapper .container .about-content h1 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
   }
   .aboutUs .wrapper .container .about-content h1 span {
@@ -2364,7 +2584,7 @@ header .headerItems .nav-links .headerlink:hover {
     display: flex;
     justify-content: center;
     align-items: start;
-    height: 490px;
+    height: 440px;
     padding: 50px 0px;
     font-family: "DM Sans 36pt";
   }
@@ -2384,14 +2604,14 @@ header .headerItems .nav-links .headerlink:hover {
   }
   .our-vision .container .cols .heading-content h1 {
     color: black;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
   .our-vision .container .cols .heading-content h1 span {
     color: rgb(246, 0, 2);
   }
   .our-vision .container .cols .heading-content p {
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
   }
   .our-vision .container .cols .image-positions {
@@ -2423,8 +2643,8 @@ header .headerItems .nav-links .headerlink:hover {
   }
   .our-vision .container .cols .image-positions .imag-item-two {
     position: absolute;
-    top: 55px;
-    left: 140px;
+    top: 68px;
+    left: 125px;
     bottom: 0px;
     right: 0;
     width: 50%;
@@ -2452,14 +2672,14 @@ header .headerItems .nav-links .headerlink:hover {
     text-align: center;
   }
   .our-mission .container .mission-text h1 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
   }
   .our-mission .container .mission-text h1 span {
     color: rgb(246, 0, 2);
   }
   .our-mission .container .mission-text p {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 100;
   }
   .our-mission .container .mission-image {
@@ -2482,7 +2702,7 @@ header .headerItems .nav-links .headerlink:hover {
     text-align: center;
   }
   .core-values .container .core-values-heading h1 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
   }
   .core-values .container .core-values-heading h1 span {
@@ -2528,13 +2748,13 @@ header .headerItems .nav-links .headerlink:hover {
     width: 30%;
   }
   .core-values .container .core-values-image .First-section .cols .cols-container .items-heading h1 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     color: #000;
   }
   .core-values .container .core-values-image .First-section .cols .cols-container .items-paragraph p {
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.2;
   }
   .core-values .container .core-values-image .second-section {
@@ -2600,6 +2820,7 @@ header .headerItems .nav-links .headerlink:hover {
   }
   .dangerous-goods .container .cols-content .content-section {
     width: 80%;
+    padding-top: 10px;
   }
   .dangerous-goods .container .cols-content .content-section .content-right {
     display: flex;
@@ -2608,23 +2829,23 @@ header .headerItems .nav-links .headerlink:hover {
     flex-direction: column;
   }
   .dangerous-goods .container .cols-content .content-section .content-right .content-icon {
-    padding: 5px;
-    border-radius: 20px;
+    padding: 2px;
+    border-radius: 10px;
     background-color: rgb(246, 0, 2);
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
   }
   .dangerous-goods .container .cols-content .content-section .content-right .content-icon img {
     width: 100%;
     filter: invert(100%);
   }
   .dangerous-goods .container .cols-content .content-section .content-right .content-heading h1 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 100;
     text-align: right;
   }
   .dangerous-goods .container .cols-content .content-section .content-right .content-paragraph p {
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.2;
     text-align: right;
   }
@@ -2671,6 +2892,7 @@ header .headerItems .nav-links .headerlink:hover {
     width: 100%;
   }
   .air-freight .container .cols-content .content-section {
+    padding-top: 10px;
     width: 80%;
   }
   .air-freight .container .cols-content .content-section .content-right {
@@ -2679,23 +2901,23 @@ header .headerItems .nav-links .headerlink:hover {
     align-items: end;
   }
   .air-freight .container .cols-content .content-section .content-right .content-icon {
-    padding: 5px;
-    border-radius: 20px;
+    padding: 4px;
+    border-radius: 10px;
     background-color: rgb(246, 0, 2);
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
   }
   .air-freight .container .cols-content .content-section .content-right .content-icon img {
     width: 100%;
     filter: invert(100%);
   }
   .air-freight .container .cols-content .content-section .content-right .content-heading h1 {
-    font-size: 30px;
+    font-size: 20px;
     text-align: right;
     font-weight: 100;
   }
   .air-freight .container .cols-content .content-section .content-right .content-paragraph p {
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.2;
     text-align: right;
   }
@@ -2731,7 +2953,7 @@ header .headerItems .nav-links .headerlink:hover {
     justify-content: space-around;
   }
   .customs-parehousing-project .customs-brokerage .container .cols-one {
-    padding: 30px 0px;
+    padding: 25px 0px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -2755,12 +2977,12 @@ header .headerItems .nav-links .headerlink:hover {
     text-align: center;
   }
   .customs-parehousing-project .customs-brokerage .container .cols-one .container-content .container-not-image .container-heading h1 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 100;
   }
   .customs-parehousing-project .customs-brokerage .container .cols-one .container-content .container-not-image .container-paragraph p {
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.2;
   }
   .customs-parehousing-project .customs-brokerage .container .cols-one .container-content img {
@@ -2773,21 +2995,21 @@ header .headerItems .nav-links .headerlink:hover {
   .customs-parehousing-project .customs-brokerage .container .cols-one .logo-icon {
     position: absolute;
     top: 0;
-    padding: 5px;
-    border-radius: 20px;
+    padding: 4px;
+    border-radius: 10px;
     background-color: rgb(246, 0, 2);
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .customs-parehousing-project .customs-brokerage .container .cols-one .logo-icon img {
-    width: 90%;
+    width: 100%;
     filter: invert(100%);
   }
   .customs-parehousing-project .customs-brokerage .container .cols-two {
-    padding: 30px 0px;
+    padding: 25px 0px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -2811,12 +3033,12 @@ header .headerItems .nav-links .headerlink:hover {
     text-align: center;
   }
   .customs-parehousing-project .customs-brokerage .container .cols-two .container-content .container-not-image .container-heading h1 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 100;
   }
   .customs-parehousing-project .customs-brokerage .container .cols-two .container-content .container-not-image .container-paragraph p {
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.2;
   }
   .customs-parehousing-project .customs-brokerage .container .cols-two .container-content img {
@@ -2829,21 +3051,21 @@ header .headerItems .nav-links .headerlink:hover {
   .customs-parehousing-project .customs-brokerage .container .cols-two .logo-icon {
     position: absolute;
     top: 0;
-    padding: 5px;
-    border-radius: 20px;
+    padding: 4px;
+    border-radius: 10px;
     background-color: rgb(246, 0, 2);
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .customs-parehousing-project .customs-brokerage .container .cols-two .logo-icon img {
-    width: 90%;
+    width: 100%;
     filter: invert(100%);
   }
   .customs-parehousing-project .customs-brokerage .container .cols-three {
-    padding: 30px 0px;
+    padding: 25px 0px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -2867,12 +3089,12 @@ header .headerItems .nav-links .headerlink:hover {
     text-align: center;
   }
   .customs-parehousing-project .customs-brokerage .container .cols-three .container-content .container-not-image .container-heading h1 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 100;
   }
   .customs-parehousing-project .customs-brokerage .container .cols-three .container-content .container-not-image .container-paragraph p {
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.2;
   }
   .customs-parehousing-project .customs-brokerage .container .cols-three .container-content img {
@@ -2885,17 +3107,17 @@ header .headerItems .nav-links .headerlink:hover {
   .customs-parehousing-project .customs-brokerage .container .cols-three .logo-icon {
     position: absolute;
     top: 0;
-    padding: 5px;
-    border-radius: 20px;
+    padding: 4px;
+    border-radius: 10px;
     background-color: rgb(246, 0, 2);
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .customs-parehousing-project .customs-brokerage .container .cols-three .logo-icon img {
-    width: 90%;
+    width: 100%;
     filter: invert(100%);
   }
 }/*# sourceMappingURL=newStyle.css.map */

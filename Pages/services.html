@@ -18,13 +18,13 @@
     <link rel="stylesheet" href="../Assets/css/newStyle.css" />
   </head>
   <body>
-    <header class="">
+    <header class="section-nav-menu">
       <div class="container">
         <div class="headerItems">
           <div class="logowrap">
             <a href="#" class="">
               <img
-                src="../Assets/Images/Logo/Logo-eximnew.png"
+                src="../Exim Website/Assets/Images/Logo/Logo-eximnew.png"
                 alt=""
                 srcset=""
                 class="logoImageSize"
@@ -32,14 +32,35 @@
             </a>
           </div>
           <!-- <div>
-                <i class="bi bi-list"></i>
-              </div> -->
+            <i class="bi bi-list"></i>
+          </div> -->
           <div class="nav-links">
             <a class="headerlink" href="../index.html">Home</a>
             <a class="headerlink" href="./who-we-are.html">Who We Are</a>
             <a class="headerlink active" href="./services.html">Services</a>
             <a class="headerlink" href="http://">Find Us</a>
           </div>
+        </div>
+      </div>
+    </header>
+
+    <header class="mobil-section-nav-menu">
+      <div class="container">
+        <div class="container-logo">
+          <img src="../Assets/Images/Logo/Logo-eximnew.png" alt="" srcset="" />
+        </div>
+        <div class="container-menu-arrow">
+          <button id="toggleButton" onclick="toggleMenu()">
+            <i class="bi bi-justify-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="nav-links-main">
+        <div class="nav-links">
+          <a class="headerlink" href="../index.html">Home</a>
+          <a class="headerlink" href="./who-we-are.html">Who We Are</a>
+          <a class="headerlink active" href="./services.html">Services</a>
+          <a class="headerlink" href="http://">Find Us</a>
         </div>
       </div>
     </header>
@@ -51,9 +72,11 @@
             <div class="about-content">
               <h1>What<span> We Provide</span></h1>
               <p>
-                Sed cursus nulla ligula, vel luctus est auctor tincidunt. Fusce
-                eu purus at quam tristique ultrices. Curabitur quis iaculis
-                nulla. Maecenas consectetur quam quis turpis rhoncus tincidunt.
+                From delicate air freight to heavy ocean cargo and the
+                intricacies of dangerous goods handling, our expertise ensures
+                seamless global shipping. Our services also encompass efficient
+                customs brokerage and warehousing to optimize their supply
+                chain.
               </p>
             </div>
           </div>
@@ -82,11 +105,11 @@
               </div>
               <div class="content-paragraph">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Praesent et diam ut erat mattis venenatis eu non nisi. Fusce
-                  scelerisque metus justo, at ultrices lectus scelerisque vel.
-                  Aliquam erat volutpat. Nunc euismod ligula eu elit finibus,
-                  sit amet porta nulla venenatis.
+                  EXIM has deep-rooted expertise in safely handling a wide range
+                  of dangerous goods, ensuring compliance with all regulations.
+                  Our established networks with major carriers allow us to
+                  access a wide range of transportation options for any type of
+                  shipment, no matter how complex.
                 </p>
               </div>
             </div>
@@ -107,11 +130,11 @@
               </div>
               <div class="content-paragraph">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Praesent et diam ut erat mattis venenatis eu non nisi. Fusce
-                  scelerisque metus justo, at ultrices lectus scelerisque vel.
-                  Aliquam erat volutpat. Nunc euismod ligula eu elit finibus,
-                  sit amet porta nulla venenatis.
+                  Our air freight service provides fast and reliable solutions
+                  to fulfill demanding logistical needs and time constraints.
+                  With an extensive network of partners and meticulous attention
+                  to detail, we guarantee the prompt and secure delivery of your
+                  freight anywhere in the world.
                 </p>
               </div>
             </div>
@@ -145,11 +168,11 @@
               </div>
               <div class="content-paragraph">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Praesent et diam ut erat mattis venenatis eu non nisi. Fusce
-                  scelerisque metus justo, at ultrices lectus scelerisque vel.
-                  Aliquam erat volutpat. Nunc euismod ligula eu elit finibus,
-                  sit amet porta nulla venenatis.
+                  EXIM offers cost-effective sea freight services for bulk and
+                  oversized shipments, with flexible full container load (FCL)
+                  and less than container load (LCL) options. Benefit from our
+                  competitive rates and reliable transit times for your global
+                  shipments.
                 </p>
               </div>
             </div>
@@ -170,11 +193,11 @@
               </div>
               <div class="content-paragraph">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Praesent et diam ut erat mattis venenatis eu non nisi. Fusce
-                  scelerisque metus justo, at ultrices lectus scelerisque vel.
-                  Aliquam erat volutpat. Nunc euismod ligula eu elit finibus,
-                  sit amet porta nulla venenatis.
+                  Our road freight solutions provide an adept and flexible way
+                  to ship your cargo throughout the local borders and the GCC.
+                  Benefit from our rapid transit times paired with personalized
+                  solutions that are precisely designed to meet your distinct
+                  requirements.
                 </p>
               </div>
             </div>
@@ -198,7 +221,7 @@
                 <div class="container-paragraph">
                   <p>
                     Expert customs clearance services to navigate complex
-                    international trade regulations and ensure smooth transit
+                    international trade regulations and ensure smooth transit.
                   </p>
                 </div>
               </div>
@@ -217,7 +240,8 @@
                 <div class="container-paragraph">
                   <p>
                     State-of-the-art warehousing facilities and distribution
-                    services for optimal inventory management fulfillment.
+                    services for optimal inventory management and order
+                    fulfillment.
                   </p>
                 </div>
               </div>
@@ -234,11 +258,14 @@
           <div class="col-md-4 cols-three">
             <div class="container-content">
               <div class="container-not-image">
-                <div class="container-heading"><h1>Project Cargo</h1></div>
+                <div class="container-heading">
+                  <h1>Cross-Trade Shipments</h1>
+                </div>
                 <div class="container-paragraph">
                   <p>
-                    Tailored logistics solutions for oversized, heavy-lift, and
-                    complex cargo projects.
+                    Smooth cross-trade services, expertly coordinating
+                    multi-national logistics to efficiently transport your cargo
+                    across borders.
                   </p>
                 </div>
               </div>
@@ -272,7 +299,7 @@
             <div class="icons-colors">
               <i class="bi bi-facebook"></i>
               <i class="bi bi-instagram"></i>
-              <i class="bi bi-twitter"></i>
+              <!-- <i class="bi bi-twitter"></i> -->
             </div>
           </div>
         </div>

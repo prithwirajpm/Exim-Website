@@ -45,8 +45,8 @@ $font-heading-weight: 500;
 $paragraph-font-weight: 100;
 $font-heading-size: 60px;
 $font-paragraph-size: 25px;
-$font-mobile-heading-size: 30px;
-$font-mobile-paragraph-size: 15px;
+$font-mobile-heading-size: 20px;
+$font-mobile-paragraph-size: 12px;
 
 html {
   padding: 0;
@@ -56,7 +56,8 @@ html {
 img {
   max-width: 100%;
 }
-header {
+.section-nav-menu {
+  display: block;
   background: #fff;
   padding: 20px 0;
   .headerItems {
@@ -92,6 +93,81 @@ header {
         &:hover {
           color: #fff;
           background-color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.mobil-section-nav-menu {
+  display: none;
+  background: white;
+  position: static;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .container-logo {
+      width: 150px;
+
+      img {
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+    .container-menu-arrow {
+      button {
+        background-color: #fff;
+        border: solid 1px $seconday-color;
+        border-radius: 3px;
+
+        i {
+          font-size: 30px;
+          color: $seconday-color;
+          padding: 0px;
+          transition: font-size 1.2s ease;
+          &:hover {
+            font-size: 32px;
+          }
+        }
+      }
+    }
+  }
+
+  .nav-links-main {
+    background-color: $seconday-color;
+    position: absolute;
+    z-index: 100;
+    top: 0px;
+    right: -100%; /* Initially hide the menu off-screen */
+    width: 80%; /* Adjust width as needed */
+    height: 100%;
+    transition: right 0.3s ease; /* Smooth transition effect */
+
+    &.active {
+      right: 0; /* Slide in from right to left */
+    }
+
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+
+      .headerlink {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 20px;
+
+        &:hover {
+          color: $primary-color;
+        }
+
+        &.active {
+          color: $primary-color;
         }
       }
     }
@@ -207,9 +283,15 @@ header {
       flex-direction: column;
       gap: 30px;
       padding: 0 15px;
-      width: 22.778%;
+      width: 21.55%;
       &:first-child {
-        width: 51.62%;
+        width: 55%;
+      }
+      &:last-child {
+        width: 23%;
+        .item {
+          height: 133px;
+        }
       }
       .item {
         border-radius: 20px;
@@ -433,6 +515,7 @@ header {
           justify-content: center;
           align-items: center;
           width: 60%;
+          height: 140px;
           overflow: hidden;
           img {
             object-fit: cover;
@@ -1226,6 +1309,81 @@ header {
 }
 
 @media (min-width: 1699px) {
+  .mobil-section-nav-menu {
+    display: none;
+    background: white;
+    position: static;
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .container-logo {
+        width: 170px;
+
+        img {
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+
+      .container-menu-arrow {
+        button {
+          background-color: #fff;
+          border: solid 1px $seconday-color;
+          border-radius: 3px;
+
+          i {
+            font-size: 30px;
+            color: $seconday-color;
+            padding: 0px;
+            transition: font-size 1.2s ease;
+            &:hover {
+              font-size: 32px;
+            }
+          }
+        }
+      }
+    }
+
+    .nav-links-main {
+      display: none;
+      background-color: $seconday-color;
+      position: absolute;
+      z-index: 100;
+      top: 0px;
+      right: -100%; /* Initially hide the menu off-screen */
+      width: 80%; /* Adjust width as needed */
+      height: 100%;
+      transition: right 1.3s ease-in-out; /* Smooth transition effect */
+
+      &.active {
+        right: 0; /* Slide in from right to left */
+      }
+
+      .nav-links {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+
+        .headerlink {
+          text-decoration: none;
+          color: white;
+          font-size: 18px;
+          font-weight: 500;
+          padding: 20px;
+
+          &:hover {
+            color: $primary-color;
+          }
+
+          &.active {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
   .container {
     max-width: 1598px;
     padding: 0;
@@ -1870,15 +2028,17 @@ header {
 }
 
 @media (max-width: 925px) {
-  header {
-    background: white;
+  .section-nav-menu {
+    display: none;
+    background: #fff;
     padding: 20px 0;
     .headerItems {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
       .logowrap {
-        max-width: 150px;
+        max-width: 272px;
         a {
           display: block;
         }
@@ -1889,7 +2049,6 @@ header {
         align-items: center;
         gap: 3px;
         .headerlink {
-          display: none;
           padding: 7px 40px;
           font-size: 25px;
           font-family: $font-family-exim;
@@ -1906,6 +2065,82 @@ header {
           &:hover {
             color: #fff;
             background-color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+
+  .mobil-section-nav-menu {
+    display: block;
+    background: white;
+    position: static;
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .container-logo {
+        width: 170px;
+
+        img {
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+
+      .container-menu-arrow {
+        button {
+          background-color: #fff;
+          border: solid 1px $seconday-color;
+          border-radius: 3px;
+
+          i {
+            font-size: 30px;
+            color: $seconday-color;
+            padding: 0px;
+            transition: font-size 1.2s ease;
+            &:hover {
+              font-size: 32px;
+            }
+          }
+        }
+      }
+    }
+
+    .nav-links-main {
+      display: none;
+      background-color: $seconday-color;
+      position: absolute;
+      z-index: 100;
+      top: 0px;
+      right: -100%; /* Initially hide the menu off-screen */
+      width: 80%; /* Adjust width as needed */
+      height: 100%;
+      transition: right 1.3s ease-in-out; /* Smooth transition effect */
+
+      &.active {
+        right: 0; /* Slide in from right to left */
+      }
+
+      .nav-links {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+
+        .headerlink {
+          text-decoration: none;
+          color: white;
+          font-size: 18px;
+          font-weight: 500;
+          padding: 20px;
+
+          &:hover {
+            color: $primary-color;
+          }
+
+          &.active {
+            color: $primary-color;
           }
         }
       }
@@ -1935,12 +2170,12 @@ header {
           .btn-typ1 {
             flex-grow: 0;
             max-width: max-content;
-            padding: 6px 20px;
-            border-radius: 20px;
+            padding: 4px 10px;
+            border-radius: 8px;
             background-color: $primary-color;
             border: none;
-            font-size: 15px;
-            font-weight: 600;
+            font-size: 12px;
+            font-weight: 400;
             color: white;
             .arrowbolder {
               font-weight: 600;
@@ -1982,6 +2217,12 @@ header {
         &:first-child {
           width: 100%;
         }
+        &:last-child {
+          width: 100%;
+          .item {
+            height: fit-content;
+          }
+        }
         .item {
           border-radius: 20px;
           overflow: hidden;
@@ -2006,7 +2247,7 @@ header {
   }
 
   .why-choose-exim {
-    background: linear-gradient(to bottom, $seconday-color 60%, #fff 50%);
+    background: linear-gradient(to bottom, $seconday-color 30%, #fff 30%);
     padding: 60px 0;
     font-family: $font-family-exim;
     .container {
@@ -2014,7 +2255,6 @@ header {
       align-items: center;
       flex-direction: column;
       color: white;
-      font-size: $font-mobile-paragraph-size;
       line-height: 1.3;
       text-align: center;
       .cols {
@@ -2024,6 +2264,9 @@ header {
         flex-direction: column;
         h1 {
           font-size: $font-mobile-heading-size;
+        }
+        p {
+          font-size: $font-mobile-paragraph-size;
         }
       }
       .why-choose-exim-text-color {
@@ -2043,7 +2286,7 @@ header {
         border-radius: 20px;
         overflow: hidden;
         .img-label {
-          font-size: 25px;
+          font-size: 15px;
         }
         img {
           min-height: 100%;
@@ -2224,7 +2467,7 @@ header {
         padding: 50px;
         .track-Your-order {
           h1 {
-            font-size: 27px;
+            font-size: 22px;
             color: #000;
             span {
               color: $primary-color;
@@ -2313,7 +2556,7 @@ header {
         }
         i {
           color: $seconday-color;
-          font-size: 25px;
+          font-size: 15px;
           margin: 10px;
         }
       }
@@ -2380,8 +2623,14 @@ header {
     .container {
       display: flex;
       flex-direction: column;
+      p {
+        font-size: $font-mobile-paragraph-size;
+      }
+      h1 {
+        font-size: $font-mobile-heading-size;
+      }
       .logo-image {
-        width: 200px;
+        width: 150px;
         overflow: hidden;
         img {
           object-fit: cover;
@@ -2401,6 +2650,7 @@ header {
           li {
             display: flex;
             padding: 5px 0px;
+            font-size: $font-mobile-paragraph-size;
             i {
               color: $primary-color;
               margin-right: 10px;
@@ -2453,7 +2703,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: start;
-    height: 490px;
+    height: 440px;
     padding: 50px 0px;
     font-family: $font-family-exim;
     .container {
@@ -2507,8 +2757,8 @@ header {
           }
           .imag-item-two {
             position: absolute;
-            top: 55px;
-            left: 140px;
+            top: 68px;
+            left: 125px;
             bottom: 0px;
             right: 0;
             width: 50%;
@@ -2611,7 +2861,7 @@ header {
               }
               .items-heading {
                 h1 {
-                  font-size: 20px;
+                  font-size: 15px;
                   font-weight: $font-heading-weight;
                   color: #000;
                 }
@@ -2619,7 +2869,7 @@ header {
               .items-paragraph {
                 p {
                   text-align: center;
-                  font-size: 15px;
+                  font-size: $font-mobile-paragraph-size;
                   line-height: 1.2;
                 }
               }
@@ -2693,17 +2943,18 @@ header {
         width: 100%;
         .content-section {
           width: 80%;
+          padding-top: 10px;
           .content-right {
             display: flex;
             justify-content: center;
             align-items: flex-end;
             flex-direction: column;
             .content-icon {
-              padding: 5px;
-              border-radius: 20px;
+              padding: 2px;
+              border-radius: 10px;
               background-color: $primary-color;
-              width: 60px;
-              height: 60px;
+              width: 40px;
+              height: 40px;
               img {
                 width: 100%;
                 filter: invert(100%);
@@ -2771,17 +3022,18 @@ header {
         align-items: center;
         width: 100%;
         .content-section {
+          padding-top: 10px;
           width: 80%;
           .content-right {
             display: flex;
             flex-direction: column;
             align-items: end;
             .content-icon {
-              padding: 5px;
-              border-radius: 20px;
+              padding: 4px;
+              border-radius: 10px;
               background-color: $primary-color;
-              width: 60px;
-              height: 60px;
+              width: 40px;
+              height: 40px;
               img {
                 width: 100%;
                 filter: invert(100%);
@@ -2838,7 +3090,7 @@ header {
         flex-direction: column;
         justify-content: space-around;
         .cols-one {
-          padding: 30px 0px;
+          padding: 25px 0px;
           position: relative;
           display: flex;
           flex-direction: column;
@@ -2880,22 +3132,22 @@ header {
           .logo-icon {
             position: absolute;
             top: 0;
-            padding: 5px;
-            border-radius: 20px;
+            padding: 4px;
+            border-radius: 10px;
             background-color: $primary-color;
-            width: 60px;
-            height: 60px;
+            width: 40px;
+            height: 40px;
             display: flex;
             justify-content: center;
             align-items: center;
             img {
-              width: 90%;
+              width: 100%;
               filter: invert(100%);
             }
           }
         }
         .cols-two {
-          padding: 30px 0px;
+          padding: 25px 0px;
           position: relative;
           display: flex;
           flex-direction: column;
@@ -2937,22 +3189,22 @@ header {
           .logo-icon {
             position: absolute;
             top: 0;
-            padding: 5px;
-            border-radius: 20px;
+            padding: 4px;
+            border-radius: 10px;
             background-color: $primary-color;
-            width: 60px;
-            height: 60px;
+            width: 40px;
+            height: 40px;
             display: flex;
             justify-content: center;
             align-items: center;
             img {
-              width: 90%;
+              width: 100%;
               filter: invert(100%);
             }
           }
         }
         .cols-three {
-          padding: 30px 0px;
+          padding: 25px 0px;
           position: relative;
           display: flex;
           flex-direction: column;
@@ -2994,16 +3246,16 @@ header {
           .logo-icon {
             position: absolute;
             top: 0;
-            padding: 5px;
-            border-radius: 20px;
+            padding: 4px;
+            border-radius: 10px;
             background-color: $primary-color;
-            width: 60px;
-            height: 60px;
+            width: 40px;
+            height: 40px;
             display: flex;
             justify-content: center;
             align-items: center;
             img {
-              width: 90%;
+              width: 100%;
               filter: invert(100%);
             }
           }

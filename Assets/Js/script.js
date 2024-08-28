@@ -17,4 +17,17 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
+  function toggleMenu() {
+    const classTag = document.querySelector('.nav-links-main');
+    if (classTag.style.display === 'none' || classTag.style.display === '') {
+      classTag.style.display = 'block'; 
+      classTag.classList.toggle('active');// Show the menu
+    } else {
+      classTag.style.display = 'none'; // Hide the menu
+    }
+  }
+  
+  
+
+
   

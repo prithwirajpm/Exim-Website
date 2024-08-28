@@ -18,13 +18,13 @@
     <link rel="stylesheet" href="../Assets/css/newStyle.css" />
   </head>
   <body>
-    <header class="">
+    <header class="section-nav-menu">
       <div class="container">
         <div class="headerItems">
           <div class="logowrap">
             <a href="#" class="">
               <img
-                src="../Assets/Images/Logo/Logo-eximnew.png"
+                src="../Exim Website/Assets/Images/Logo/Logo-eximnew.png"
                 alt=""
                 srcset=""
                 class="logoImageSize"
@@ -32,14 +32,35 @@
             </a>
           </div>
           <!-- <div>
-              <i class="bi bi-list"></i>
-            </div> -->
+            <i class="bi bi-list"></i>
+          </div> -->
           <div class="nav-links">
             <a class="headerlink" href="../index.html">Home</a>
             <a class="headerlink active" href="./who-we-are.html">Who We Are</a>
             <a class="headerlink" href="./services.html">Services</a>
             <a class="headerlink" href="http://">Find Us</a>
           </div>
+        </div>
+      </div>
+    </header>
+
+    <header class="mobil-section-nav-menu">
+      <div class="container">
+        <div class="container-logo">
+          <img src="../Assets/Images/Logo/Logo-eximnew.png" alt="" srcset="" />
+        </div>
+        <div class="container-menu-arrow">
+          <button id="toggleButton" onclick="toggleMenu()">
+            <i class="bi bi-justify-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="nav-links-main">
+        <div class="nav-links">
+          <a class="headerlink" href="../index.html">Home</a>
+          <a class="headerlink active" href="./who-we-are.html">Who We Are</a>
+          <a class="headerlink" href="./services.html">Services</a>
+          <a class="headerlink" href="http://">Find Us</a>
         </div>
       </div>
     </header>
@@ -242,7 +263,7 @@
             <div class="icons-colors">
               <i class="bi bi-facebook"></i>
               <i class="bi bi-instagram"></i>
-              <i class="bi bi-twitter"></i>
+              <!-- <i class="bi bi-twitter"></i> -->
             </div>
           </div>
         </div>
