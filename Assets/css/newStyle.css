@@ -191,7 +191,7 @@ img {
   height: 100%;
 }
 .banner-section .wrapper .container .banner-content .bannner-text .banner-text-size {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 500;
 }
 .banner-section .wrapper .container .banner-content .btn-typ1 {
@@ -227,7 +227,7 @@ img {
   padding: 50px 0;
 }
 .what-we-provide .hd-typ1 {
-  font-size: 60px;
+  font-size: 55px;
   font-family: "DM Sans 36pt";
   font-weight: 500;
   line-height: 1.25;
@@ -315,7 +315,7 @@ img {
   flex-direction: column;
 }
 .why-choose-exim .container .cols h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 500;
 }
 .why-choose-exim .container .cols p {
@@ -387,7 +387,7 @@ img {
   align-items: center;
 }
 .how-we-work .how-we-work-content .how-we-work-heading h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 500;
   color: white;
 }
@@ -434,7 +434,7 @@ img {
   text-align: center;
 }
 .service-section-arround .service-section h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 500;
   line-height: 1.25;
 }
@@ -457,7 +457,7 @@ img {
   font-family: "DM Sans 36pt";
 }
 .group-of-Companies .container .h1-text h1 {
-  font-size: 60px;
+  font-size: 55px;
   text-align: center;
   font-weight: 500;
 }
@@ -531,7 +531,7 @@ img {
 }
 .track-your-shipment .Shipment .shipment-order .track-Your-order h1 {
   color: #000;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 500;
 }
 .track-your-shipment .Shipment .shipment-order .track-Your-order h1 span {
@@ -610,7 +610,7 @@ img {
   font-weight: 500;
 }
 .find-us .find-us-heading .heading h1 {
-  font-size: 60px;
+  font-size: 55px;
 }
 .find-us .find-us-heading .heading h1 span {
   color: rgb(246, 0, 2);
@@ -633,6 +633,35 @@ img {
 }
 .find-us .find-us-heading .button-heading button i {
   padding-right: 5px;
+}
+.find-us .mobile-png {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.find-us .mobile-png img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 500px;
+}
+.find-us .mobile-png .video-label {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.find-us .mobile-png .video-label h1 span {
+  color: rgb(246, 0, 2);
 }
 .find-us .image-group {
   display: flex;
@@ -729,7 +758,7 @@ img {
   color: white;
 }
 .aboutUs .wrapper .about-content h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 500;
 }
 .aboutUs .wrapper .about-content h1 span {
@@ -757,7 +786,7 @@ img {
 }
 .our-vision .container .cols .heading-content h1 {
   color: black;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 500;
 }
 .our-vision .container .cols .heading-content h1 span {
@@ -823,7 +852,7 @@ img {
   text-align: center;
 }
 .our-mission .container .mission-text h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 500;
 }
 .our-mission .container .mission-text h1 span {
@@ -855,7 +884,7 @@ img {
   text-align: center;
 }
 .core-values .container .core-values-heading h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 500;
 }
 .core-values .container .core-values-heading h1 span {
@@ -980,7 +1009,7 @@ img {
   filter: invert(100%);
 }
 .dangerous-goods .container .cols-content .content-section .content-right .content-heading h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 100;
 }
 .dangerous-goods .container .cols-content .content-section .content-right .content-paragraph p {
@@ -1045,7 +1074,7 @@ img {
   filter: invert(100%);
 }
 .air-freight .container .cols-content .content-section .content-right .content-heading h1 {
-  font-size: 60px;
+  font-size: 55px;
   text-align: right;
   font-weight: 100;
 }
@@ -1324,7 +1353,7 @@ img {
     font-family: "DM Sans 36pt";
   }
   .what-we-provide .hd-typ1 {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 500;
     line-height: 1.25;
   }
@@ -1418,7 +1447,7 @@ img {
     color: white;
   }
   .aboutUs .wrapper .about-content h1 {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 500;
   }
   .aboutUs .wrapper .about-content h1 span {
@@ -1445,7 +1474,7 @@ img {
   }
   .our-vision .container .cols .heading-content h1 {
     color: black;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 500;
   }
   .our-vision .container .cols .heading-content h1 span {
@@ -1508,7 +1537,7 @@ img {
     text-align: center;
   }
   .our-mission .container .mission-text h1 {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 500;
   }
   .our-mission .container .mission-text h1 span {
@@ -1539,7 +1568,7 @@ img {
     text-align: center;
   }
   .core-values .container .core-values-heading h1 {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 500;
   }
   .core-values .container .core-values-heading h1 span {
@@ -1663,7 +1692,7 @@ img {
     filter: invert(100%);
   }
   .dangerous-goods .container .cols-content .content-section .content-right .content-heading h1 {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 100;
   }
   .dangerous-goods .container .cols-content .content-section .content-right .content-paragraph p {
@@ -1727,7 +1756,7 @@ img {
     filter: invert(100%);
   }
   .air-freight .container .cols-content .content-section .content-right .content-heading h1 {
-    font-size: 60px;
+    font-size: 55px;
     text-align: right;
     font-weight: 100;
   }
@@ -2421,7 +2450,7 @@ img {
     font-family: "DM Sans 36pt";
   }
   .find-us .main-class {
-    height: 60%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2460,6 +2489,37 @@ img {
   .find-us .find-us-heading .button-heading button i {
     padding-right: 5px;
     font-size: 12px;
+  }
+  .find-us .mobile-png {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .find-us .mobile-png img {
+    max-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    height: 100%;
+    max-height: 320px;
+    transform: rotate(90deg);
+  }
+  .find-us .mobile-png .video-label {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .find-us .mobile-png .video-label h1 span {
+    color: rgb(246, 0, 2);
   }
   .find-us .image-group {
     display: flex;
