@@ -259,11 +259,24 @@ img {
 .what-we-provide .img-wrap .cols:first-child {
   width: 55%;
 }
+.what-we-provide .img-wrap .cols:first-child .item {
+  height: 365px;
+}
+.what-we-provide .img-wrap .cols:first-child .item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right bottom;
+     object-position: right bottom;
+}
 .what-we-provide .img-wrap .cols:last-child {
   width: 23%;
 }
 .what-we-provide .img-wrap .cols:last-child .item {
   height: 133px;
+}
+.what-we-provide .img-wrap .cols:last-child .item img {
+  max-width: 100%;
+  min-height: 100%;
 }
 .what-we-provide .img-wrap .cols .item {
   border-radius: 20px;
@@ -617,7 +630,7 @@ img {
   color: rgb(246, 0, 2);
 }
 .find-us .find-us-heading .heading i {
-  color: rgb(43, 45, 66);
+  color: rgb(93, 94, 96);
   font-size: 35px;
   margin: 10px;
 }
@@ -631,6 +644,7 @@ img {
   color: white;
   padding: 8px 14px;
   border-radius: 10px;
+  margin-right: 8px;
 }
 .find-us .find-us-heading .button-heading button i {
   padding-right: 5px;
@@ -661,8 +675,8 @@ img {
   justify-content: center;
   align-items: center;
 }
-.find-us .mobile-png .video-label h1 span {
-  color: rgb(246, 0, 2);
+.find-us .mobile-png .video-label video {
+  width: 68%;
 }
 .find-us .image-group {
   display: flex;
@@ -2662,12 +2676,14 @@ img {
   .what-we-provide .img-wrap .cols:first-child {
     width: 100%;
   }
+  .what-we-provide .img-wrap .cols:first-child .item {
+    height: 219px;
+  }
   .what-we-provide .img-wrap .cols:last-child {
     width: 100%;
   }
   .what-we-provide .img-wrap .cols:last-child .item {
-    height: -moz-fit-content;
-    height: fit-content;
+    height: 219px;
   }
   .what-we-provide .img-wrap .cols .item {
     border-radius: 20px;
@@ -2995,7 +3011,7 @@ img {
     color: rgb(246, 0, 2);
   }
   .find-us .find-us-heading .heading i {
-    color: rgb(43, 45, 66);
+    color: rgb(93, 94, 96);
     font-size: 15px;
     margin: 10px;
   }
@@ -3006,9 +3022,9 @@ img {
     border: none;
     background: rgb(246, 0, 2);
     color: white;
-    padding: 4px 8px;
+    padding: 2px 4px;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 8px;
   }
   .find-us .find-us-heading .button-heading button i {
     padding-right: 5px;
@@ -3042,8 +3058,8 @@ img {
     justify-content: center;
     align-items: center;
   }
-  .find-us .mobile-png .video-label h1 span {
-    color: rgb(246, 0, 2);
+  .find-us .mobile-png .video-label video {
+    width: 85%;
   }
   .find-us .image-group {
     display: flex;

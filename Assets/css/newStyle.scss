@@ -286,11 +286,22 @@ img {
       width: 21.55%;
       &:first-child {
         width: 55%;
+        .item {
+          height: 365px;
+          img {
+            object-fit: cover;
+            object-position: right bottom;
+          }
+        }
       }
       &:last-child {
         width: 23%;
         .item {
           height: 133px;
+          img {
+            max-width: 100%;
+            min-height: 100%;
+          }
         }
       }
       .item {
@@ -647,7 +658,7 @@ img {
         }
       }
       i {
-        color: $seconday-color;
+        color: rgb(93, 94, 96);
         font-size: 35px;
         margin: 10px;
       }
@@ -657,12 +668,15 @@ img {
         font-size: 40px;
         font-weight: 100;
       }
+
       button {
         border: none;
         background: $primary-color;
         color: white;
         padding: 8px 14px;
         border-radius: 10px;
+        margin-right: 8px;
+
         i {
           padding-right: 5px;
         }
@@ -693,10 +707,8 @@ img {
       display: flex;
       justify-content: center;
       align-items: center;
-      h1 {
-        span {
-          color: $primary-color;
-        }
+      video {
+        width: 68%;
       }
     }
   }
@@ -2812,11 +2824,14 @@ img {
         width: 100%;
         &:first-child {
           width: 100%;
+          .item {
+            height: 219px;
+          }
         }
         &:last-child {
           width: 100%;
           .item {
-            height: fit-content;
+            height: 219px;
           }
         }
         .item {
@@ -3151,7 +3166,7 @@ img {
           }
         }
         i {
-          color: $seconday-color;
+          color: rgb(93, 94, 96);
           font-size: 15px;
           margin: 10px;
         }
@@ -3164,9 +3179,9 @@ img {
           border: none;
           background: $primary-color;
           color: white;
-          padding: 4px 8px;
+          padding: 2px 4px;
           border-radius: 5px;
-          font-size: 12px;
+          font-size: 8px;
           i {
             padding-right: 5px;
             font-size: 12px;
@@ -3199,10 +3214,8 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
-        h1 {
-          span {
-            color: $primary-color;
-          }
+        video {
+          width: 85%;
         }
       }
     }
