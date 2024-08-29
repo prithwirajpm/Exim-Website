@@ -1277,6 +1277,268 @@ img {
   filter: invert(100%);
 }
 
+.We-love-to {
+  background: linear-gradient(to right, rgb(236, 241, 243) 40%, rgb(246, 0, 2) 40%);
+}
+.We-love-to .container {
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.We-love-to .container .cols-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.We-love-to .container .cols-one .heading-location .heading h1 {
+  font-size: 67px;
+  font-weight: 500;
+}
+.We-love-to .container .cols-one .heading-location .heading h1 span {
+  color: rgb(246, 0, 2);
+}
+.We-love-to .container .cols-one .heading-location .location .center-align ul {
+  padding: 50px 0px 0px 0px;
+  font-weight: 100;
+}
+.We-love-to .container .cols-one .heading-location .location .center-align ul li {
+  display: flex;
+  padding: 5px 0px;
+  font-size: 20px;
+}
+.We-love-to .container .cols-one .heading-location .location .center-align ul li i {
+  color: rgb(246, 0, 2);
+  margin-right: 10px;
+}
+.We-love-to .container .cols-one .heading-location .location .center-align ul .mobile {
+  display: flex;
+  padding: 30px 0px 0px 0px;
+  font-size: 30px;
+}
+.We-love-to .container .cols-one .heading-location .location .center-align ul .mobile i {
+  color: rgb(246, 0, 2);
+  margin-right: 10px;
+  cursor: pointer;
+}
+.We-love-to .container .cols-one .heading-location .location .center-align ul .mobile a {
+  text-decoration: none;
+  color: black;
+}
+.We-love-to .container .cols {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.We-love-to .container .cols .form-mail {
+  width: 77%;
+}
+.We-love-to .container .cols .form-mail .contact-form {
+  font-family: "DM Sans 36pt";
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box {
+  padding: 20px 0px;
+  width: 100%;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box input {
+  width: 98%;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background-color: rgb(246, 0, 2);
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box input::-moz-placeholder {
+  /* For modern browsers */
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box input::placeholder {
+  /* For modern browsers */
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box input:-ms-input-placeholder {
+  /* For Internet Explorer 10-11 */
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box input::-ms-input-placeholder {
+  /* For Microsoft Edge */
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box input::-webkit-input-placeholder {
+  /* For Chrome, Safari, and Opera */
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box input::-moz-placeholder {
+  /* For Firefox 19+ */
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box input:-moz-placeholder {
+  /* For Firefox 4-18 */
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .two-input-box {
+  width: 100%;
+  display: flex;
+}
+.We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box {
+  padding: 20px 0px;
+  width: 50%;
+}
+.We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input {
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background-color: rgb(246, 0, 2);
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input::-moz-placeholder {
+  /* For modern browsers */
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+.We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input::placeholder {
+  /* For modern browsers */
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+.We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input:-ms-input-placeholder {
+  /* For Internet Explorer 10-11 */
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input::-ms-input-placeholder {
+  /* For Microsoft Edge */
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input::-webkit-input-placeholder {
+  /* For Chrome, Safari, and Opera */
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input::-moz-placeholder {
+  /* For Firefox 19+ */
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input:-moz-placeholder {
+  /* For Firefox 4-18 */
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box-message {
+  padding: 20px 0px;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box-message input {
+  width: 70%;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background-color: rgb(246, 0, 2);
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box-message input::-moz-placeholder {
+  /* For modern browsers */
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box-message input::placeholder {
+  /* For modern browsers */
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box-message input:-ms-input-placeholder {
+  /* For Internet Explorer 10-11 */
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box-message input::-ms-input-placeholder {
+  /* For Microsoft Edge */
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box-message input::-webkit-input-placeholder {
+  /* For Chrome, Safari, and Opera */
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box-message input::-moz-placeholder {
+  /* For Firefox 19+ */
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .input-box-message input:-moz-placeholder {
+  /* For Firefox 4-18 */
+  color: white;
+}
+.We-love-to .container .cols .form-mail .contact-form .button-submit {
+  padding: 20px 0px;
+}
+.We-love-to .container .cols .form-mail .contact-form .button-submit button {
+  background: white;
+  border-radius: 10px;
+  padding: 8px 20px;
+  color: rgb(246, 0, 2);
+  border: none;
+  font-size: 20px;
+}
+.We-love-to .container .cols .form-mail .our-email {
+  padding: 20px 0px;
+  color: white;
+}
+.We-love-to .container .cols .form-mail .our-email h1 {
+  font-weight: 100;
+}
+.We-love-to .container .cols .form-mail .our-email h1 .mailto {
+  text-decoration: none;
+  color: white;
+}
+.We-love-to .container .cols .form-mail .our-email h6 {
+  font-weight: 100;
+}
+
+.google-map {
+  position: relative;
+  height: 100%; /* or set a specific height if needed */
+}
+.google-map::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40%; /* Only 40% of the element's height */
+  background: linear-gradient(to right, rgb(236, 241, 243) 40%, rgb(246, 0, 2) 40%);
+  z-index: 1; /* Ensure it appears above the content but below any overlays */
+}
+.google-map .container {
+  position: relative;
+  z-index: 2; /* Ensures content stays above the gradient background */
+}
+.google-map .container .map-border {
+  border-radius: 30px;
+}
+.google-map .container .botton-color {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.google-map .container .botton-color button {
+  background: rgb(246, 0, 2);
+  border-radius: 10px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.google-map .container .botton-color button i {
+  font-weight: 500;
+}
+
 @media (min-width: 1699px) {
   .mobil-section-nav-menu {
     display: none;
@@ -1956,6 +2218,266 @@ img {
   .customs-parehousing-project .customs-brokerage .container .cols-three .logo-icon img {
     width: 90%;
     filter: invert(100%);
+  }
+  .We-love-to {
+    background: linear-gradient(to right, rgb(236, 241, 243) 40%, rgb(246, 0, 2) 40%);
+  }
+  .We-love-to .container {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .We-love-to .container .cols-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .We-love-to .container .cols-one .heading-location .heading h1 {
+    font-size: 67px;
+    font-weight: 500;
+  }
+  .We-love-to .container .cols-one .heading-location .heading h1 span {
+    color: rgb(246, 0, 2);
+  }
+  .We-love-to .container .cols-one .heading-location .location .center-align ul {
+    padding: 50px 0px 0px 0px;
+    font-weight: 100;
+  }
+  .We-love-to .container .cols-one .heading-location .location .center-align ul li {
+    display: flex;
+    padding: 5px 0px;
+    font-size: 20px;
+  }
+  .We-love-to .container .cols-one .heading-location .location .center-align ul li i {
+    color: rgb(246, 0, 2);
+    margin-right: 10px;
+  }
+  .We-love-to .container .cols-one .heading-location .location .center-align ul .mobile {
+    display: flex;
+    padding: 30px 0px 0px 0px;
+    font-size: 30px;
+  }
+  .We-love-to .container .cols-one .heading-location .location .center-align ul .mobile i {
+    color: rgb(246, 0, 2);
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .We-love-to .container .cols-one .heading-location .location .center-align ul .mobile a {
+    text-decoration: none;
+    color: black;
+  }
+  .We-love-to .container .cols {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .We-love-to .container .cols .form-mail {
+    width: 77%;
+  }
+  .We-love-to .container .cols .form-mail .contact-form {
+    font-family: "DM Sans 36pt";
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box {
+    padding: 20px 0px;
+    width: 100%;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input {
+    width: 98%;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: rgb(246, 0, 2);
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input::-moz-placeholder {
+    /* For modern browsers */
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input::placeholder {
+    /* For modern browsers */
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input:-ms-input-placeholder {
+    /* For Internet Explorer 10-11 */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input::-ms-input-placeholder {
+    /* For Microsoft Edge */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input::-webkit-input-placeholder {
+    /* For Chrome, Safari, and Opera */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input::-moz-placeholder {
+    /* For Firefox 19+ */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input:-moz-placeholder {
+    /* For Firefox 4-18 */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box {
+    width: 100%;
+    display: flex;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box {
+    padding: 20px 0px;
+    width: 50%;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input {
+    width: 95%;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: rgb(246, 0, 2);
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input::-moz-placeholder {
+    /* For modern browsers */
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input::placeholder {
+    /* For modern browsers */
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input:-ms-input-placeholder {
+    /* For Internet Explorer 10-11 */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input::-ms-input-placeholder {
+    /* For Microsoft Edge */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input::-webkit-input-placeholder {
+    /* For Chrome, Safari, and Opera */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input::-moz-placeholder {
+    /* For Firefox 19+ */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input:-moz-placeholder {
+    /* For Firefox 4-18 */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message {
+    padding: 20px 0px;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input {
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: rgb(246, 0, 2);
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input::-moz-placeholder {
+    /* For modern browsers */
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input::placeholder {
+    /* For modern browsers */
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input:-ms-input-placeholder {
+    /* For Internet Explorer 10-11 */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input::-ms-input-placeholder {
+    /* For Microsoft Edge */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input::-webkit-input-placeholder {
+    /* For Chrome, Safari, and Opera */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input::-moz-placeholder {
+    /* For Firefox 19+ */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input:-moz-placeholder {
+    /* For Firefox 4-18 */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .button-submit {
+    padding: 20px 0px;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .button-submit button {
+    background: white;
+    border-radius: 10px;
+    padding: 8px 20px;
+    color: rgb(246, 0, 2);
+    border: none;
+    font-size: 20px;
+  }
+  .We-love-to .container .cols .form-mail .our-email {
+    padding: 20px 0px;
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .our-email h1 {
+    font-weight: 100;
+  }
+  .We-love-to .container .cols .form-mail .our-email h1 .mailto {
+    text-decoration: none;
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .our-email h6 {
+    font-weight: 100;
+  }
+  .google-map {
+    position: relative;
+    height: 100%; /* or set a specific height if needed */
+  }
+  .google-map::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%; /* Only 40% of the element's height */
+    background: linear-gradient(to right, rgb(236, 241, 243) 40%, rgb(246, 0, 2) 40%);
+    z-index: 1; /* Ensure it appears above the content but below any overlays */
+  }
+  .google-map .container {
+    position: relative;
+    z-index: 2; /* Ensures content stays above the gradient background */
+  }
+  .google-map .container .map-border {
+    border-radius: 30px;
+  }
+  .google-map .container .botton-color {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .google-map .container .botton-color button {
+    background: rgb(246, 0, 2);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .google-map .container .botton-color button i {
+    font-weight: 500;
   }
 }
 @media (max-width: 925px) {
@@ -3179,5 +3701,267 @@ img {
   .customs-parehousing-project .customs-brokerage .container .cols-three .logo-icon img {
     width: 100%;
     filter: invert(100%);
+  }
+  .We-love-to {
+    background: linear-gradient(to bottom, rgb(236, 241, 243) 47%, rgb(246, 0, 2) 47%);
+  }
+  .We-love-to .container {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .We-love-to .container .cols-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .We-love-to .container .cols-one .heading-location .heading h1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .We-love-to .container .cols-one .heading-location .heading h1 span {
+    color: rgb(246, 0, 2);
+  }
+  .We-love-to .container .cols-one .heading-location .location .center-align ul {
+    padding: 50px 0px 0px 0px;
+    font-weight: 100;
+  }
+  .We-love-to .container .cols-one .heading-location .location .center-align ul li {
+    display: flex;
+    padding: 5px 0px;
+    font-size: 20px;
+  }
+  .We-love-to .container .cols-one .heading-location .location .center-align ul li i {
+    color: rgb(246, 0, 2);
+    margin-right: 10px;
+  }
+  .We-love-to .container .cols-one .heading-location .location .center-align ul .mobile {
+    display: flex;
+    padding: 30px 0px 0px 0px;
+    font-size: 30px;
+  }
+  .We-love-to .container .cols-one .heading-location .location .center-align ul .mobile i {
+    color: rgb(246, 0, 2);
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .We-love-to .container .cols-one .heading-location .location .center-align ul .mobile a {
+    text-decoration: none;
+    color: black;
+  }
+  .We-love-to .container .cols {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .We-love-to .container .cols .form-mail {
+    width: 100%;
+    padding-top: 100px;
+  }
+  .We-love-to .container .cols .form-mail .contact-form {
+    font-family: "DM Sans 36pt";
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box {
+    padding: 20px 0px;
+    width: 100%;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input {
+    width: 98%;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: rgb(246, 0, 2);
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input::-moz-placeholder {
+    /* For modern browsers */
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input::placeholder {
+    /* For modern browsers */
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input:-ms-input-placeholder {
+    /* For Internet Explorer 10-11 */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input::-ms-input-placeholder {
+    /* For Microsoft Edge */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input::-webkit-input-placeholder {
+    /* For Chrome, Safari, and Opera */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input::-moz-placeholder {
+    /* For Firefox 19+ */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box input:-moz-placeholder {
+    /* For Firefox 4-18 */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box {
+    width: 100%;
+    display: flex;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box {
+    padding: 20px 0px;
+    width: 50%;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input {
+    width: 95%;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: rgb(246, 0, 2);
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input::-moz-placeholder {
+    /* For modern browsers */
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input::placeholder {
+    /* For modern browsers */
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input:-ms-input-placeholder {
+    /* For Internet Explorer 10-11 */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input::-ms-input-placeholder {
+    /* For Microsoft Edge */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input::-webkit-input-placeholder {
+    /* For Chrome, Safari, and Opera */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input::-moz-placeholder {
+    /* For Firefox 19+ */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .two-input-box .input-box input:-moz-placeholder {
+    /* For Firefox 4-18 */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message {
+    padding: 20px 0px;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input {
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: rgb(246, 0, 2);
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input::-moz-placeholder {
+    /* For modern browsers */
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input::placeholder {
+    /* For modern browsers */
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input:-ms-input-placeholder {
+    /* For Internet Explorer 10-11 */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input::-ms-input-placeholder {
+    /* For Microsoft Edge */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input::-webkit-input-placeholder {
+    /* For Chrome, Safari, and Opera */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input::-moz-placeholder {
+    /* For Firefox 19+ */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .input-box-message input:-moz-placeholder {
+    /* For Firefox 4-18 */
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .button-submit {
+    padding: 20px 0px;
+  }
+  .We-love-to .container .cols .form-mail .contact-form .button-submit button {
+    background: white;
+    border-radius: 10px;
+    padding: 8px 20px;
+    color: rgb(246, 0, 2);
+    border: none;
+    font-size: 20px;
+  }
+  .We-love-to .container .cols .form-mail .our-email {
+    padding: 20px 0px;
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .our-email h1 {
+    font-weight: 100;
+  }
+  .We-love-to .container .cols .form-mail .our-email h1 .mailto {
+    text-decoration: none;
+    color: white;
+  }
+  .We-love-to .container .cols .form-mail .our-email h6 {
+    font-weight: 100;
+  }
+  .google-map {
+    position: relative;
+    height: 100%; /* or set a specific height if needed */
+  }
+  .google-map::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%; /* Only 40% of the element's height */
+    background: rgb(246, 0, 2);
+    z-index: 1; /* Ensure it appears above the content but below any overlays */
+  }
+  .google-map .container {
+    position: relative;
+    z-index: 2; /* Ensures content stays above the gradient background */
+  }
+  .google-map .container .map-border {
+    border-radius: 30px;
+  }
+  .google-map .container .botton-color {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .google-map .container .botton-color button {
+    background: rgb(246, 0, 2);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .google-map .container .botton-color button i {
+    font-weight: 500;
   }
 }/*# sourceMappingURL=newStyle.css.map */
