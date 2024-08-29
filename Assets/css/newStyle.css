@@ -525,7 +525,8 @@ img {
 .track-your-shipment .Shipment .shipment-order {
   background: #fff;
   width: 50%;
-  height: 350px;
+  height: -moz-fit-content;
+  height: fit-content;
   border-radius: 20px;
   padding: 50px;
 }
