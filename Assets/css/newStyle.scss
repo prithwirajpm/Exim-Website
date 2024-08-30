@@ -57,6 +57,9 @@ img {
   max-width: 100%;
 }
 .section-nav-menu {
+  // width: 100%;
+  // z-index: 100;
+  // position: fixed;
   display: block;
   background: #fff;
   padding: 20px 0;
@@ -287,10 +290,13 @@ img {
       &:first-child {
         width: 55%;
         .item {
+          width: 100%;
           height: 365px;
           img {
+            max-width: 100%;
+            min-height: 100%;
             object-fit: cover;
-            object-position: right bottom;
+            object-position: center;
           }
         }
       }
@@ -360,6 +366,7 @@ img {
       p {
         font-size: $font-paragraph-size;
         font-weight: $paragraph-font-weight;
+        text-align: justify;
       }
     }
     .why-choose-exim-text-color {
@@ -487,6 +494,8 @@ img {
       font-size: $font-paragraph-size;
       line-height: 1.3;
       font-weight: $paragraph-font-weight;
+      text-align: justify;
+      text-align-last: center;
     }
   }
 }
@@ -649,6 +658,8 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 25px;
     .heading {
       font-weight: $font-heading-weight;
       h1 {
@@ -3165,6 +3176,8 @@ img {
       flex-direction: column;
       justify-content: space-between;
       text-align: center;
+      padding-top: 0px;
+      padding-bottom: 0px;
       .heading {
         text-align: center;
         h1 {

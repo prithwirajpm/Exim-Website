@@ -260,13 +260,16 @@ img {
   width: 55%;
 }
 .what-we-provide .img-wrap .cols:first-child .item {
+  width: 100%;
   height: 365px;
 }
 .what-we-provide .img-wrap .cols:first-child .item img {
+  max-width: 100%;
+  min-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: right bottom;
-     object-position: right bottom;
+  -o-object-position: center;
+     object-position: center;
 }
 .what-we-provide .img-wrap .cols:last-child {
   width: 23%;
@@ -334,6 +337,7 @@ img {
 .why-choose-exim .container .cols p {
   font-size: 25px;
   font-weight: 100;
+  text-align: justify;
 }
 .why-choose-exim .container .why-choose-exim-text-color {
   color: rgb(246, 0, 2);
@@ -458,6 +462,9 @@ img {
   font-size: 25px;
   line-height: 1.3;
   font-weight: 100;
+  text-align: justify;
+  -moz-text-align-last: center;
+       text-align-last: center;
 }
 
 .group-of-Companies {
@@ -619,6 +626,8 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 .find-us .find-us-heading .heading {
   font-weight: 500;
@@ -3006,6 +3015,8 @@ img {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .find-us .find-us-heading .heading {
     text-align: center;
