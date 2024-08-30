@@ -62,7 +62,13 @@
       </div>
       <div class="nav-links-main">
         <div class="nav-links">
-          <a class="headerlink active" href="./index.html">Home</a>
+          <div class="d-flex justify-content-between">
+            <button onclick="toggleMenu()">
+              <i class="bi bi-x-lg"></i>
+            </button>
+            <a class="headerlink active" href="./index.html">Home</a>
+          </div>
+
           <a class="headerlink" href="./Pages/who-we-are.html">Who We Are</a>
           <a class="headerlink" href="./Pages/services.html">Services</a>
           <a class="headerlink" href="./Pages/findus.html">Find Us</a>
@@ -381,7 +387,7 @@
               srcset=""
             />
             <div class="video-label">
-              <video controls autoplay muted loop>
+              <video id="promo-video" controls autoplay muted loop>
                 <source
                   src="./Assets/Images/Video/video.mp4"
                   type="video/mp4"

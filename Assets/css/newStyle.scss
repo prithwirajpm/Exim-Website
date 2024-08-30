@@ -43,7 +43,7 @@ $seconday-color: rgb(43, 45, 66);
 $font-family-exim: "DM Sans 36pt";
 $font-heading-weight: 500;
 $paragraph-font-weight: 100;
-$font-heading-size: 55px;
+$font-heading-size: 50px;
 $font-paragraph-size: 25px;
 $font-mobile-heading-size: 20px;
 $font-mobile-paragraph-size: 12px;
@@ -665,7 +665,7 @@ img {
     }
     .button-heading {
       h1 {
-        font-size: 40px;
+        font-size: 38px;
         font-weight: 100;
       }
 
@@ -675,7 +675,7 @@ img {
         color: white;
         padding: 8px 14px;
         border-radius: 10px;
-        margin-right: 8px;
+        // margin-right: 8px;
 
         i {
           padding-right: 5px;
@@ -2735,6 +2735,14 @@ img {
         display: flex;
         flex-direction: column;
         text-align: right;
+
+        button {
+          background-color: $seconday-color;
+          border: none;
+          color: white;
+          margin: 5px 0px;
+          font-weight: 700;
+        }
 
         .headerlink {
           text-decoration: none;
