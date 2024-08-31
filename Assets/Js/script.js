@@ -45,7 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           video.play();
+          video.muted = false; 
         } else {
+          video.muted = true; 
           video.pause();
         }
       });
