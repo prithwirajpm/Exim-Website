@@ -40,21 +40,26 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener("DOMContentLoaded", function() {
     const video = document.getElementById('promo-video');
     const section = document.querySelector('.find-us');
-  
-    const observer = new IntersectionObserver((entries, observer) => {
+    
+    const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          video.play();
-          video.muted = false; 
+          video.play(); 
+          setTimeout(() => {
+            video.muted = false;
+          }, 500);
         } else {
-          video.muted = true; 
           video.pause();
+          setTimeout(() => {
+            video.muted = true;
+          }, 500);
         }
       });
     }, { threshold: 0.5 });
   
     observer.observe(section);
   });
+  
   
   
 
