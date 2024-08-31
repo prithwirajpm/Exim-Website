@@ -45,8 +45,8 @@ $font-heading-weight: 500;
 $paragraph-font-weight: 100;
 $font-heading-size: 50px;
 $font-paragraph-size: 25px;
-$font-mobile-heading-size: 20px;
-$font-mobile-paragraph-size: 12px;
+$font-mobile-heading-size: 25px;
+$font-mobile-paragraph-size: 14px;
 
 html {
   padding: 0;
@@ -182,7 +182,7 @@ img {
   flex-direction: column;
   scroll-snap-type: y mandatory;
   overflow-y: hidden;
-  height: 100vh;
+  height: 80vh;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -198,10 +198,12 @@ img {
   opacity: 0;
   transform: scale(0.95);
   animation: fadeIn 1.5s forwards ease-in-out;
+  height: 80vh;
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: 0% 10%;
   }
   .wrapper {
     position: absolute;
@@ -403,7 +405,7 @@ img {
         min-height: 100%;
         max-width: 100%;
         object-fit: cover;
-        object-position: center;
+        object-position: 83%;
       }
     }
   }
@@ -2775,37 +2777,53 @@ img {
   }
   .banner-section {
     position: relative;
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    opacity: 0;
+    transform: scale(0.95);
+    animation: fadeIn 1.5s forwards ease-in-out;
+    height: 100vh;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
     .wrapper {
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
-      bottom: 0px;
+      bottom: 90px;
       .container {
         height: 100%;
         .banner-content {
+          font-family: $font-family-exim;
           display: flex;
           flex-direction: column;
           flex-wrap: wrap;
-          justify-content: center;
+          justify-content: end;
           height: 100%;
           .bannner-text {
             .banner-text-size {
               font-size: $font-mobile-heading-size;
+              font-weight: $font-heading-weight;
             }
           }
           .btn-typ1 {
             flex-grow: 0;
             max-width: max-content;
-            padding: 4px 10px;
-            border-radius: 8px;
+            padding: 6px 20px;
+            border-radius: 10px;
             background-color: $primary-color;
             border: none;
-            font-size: 12px;
-            font-weight: 400;
+            font-size: $font-mobile-paragraph-size;
+            font-weight: $font-heading-weight;
             color: white;
+            margin-top: 10px;
+            text-decoration: none;
             .arrowbolder {
-              font-weight: 600;
+              font-weight: $font-heading-weight;
             }
           }
         }
@@ -2831,7 +2849,8 @@ img {
       font-weight: 100;
       font-size: $font-mobile-paragraph-size;
       line-height: 1.3;
-      text-align: center;
+      text-align: justify;
+      text-align-last: center;
       color: white;
     }
     .img-wrap {
@@ -2897,6 +2916,8 @@ img {
         }
         p {
           font-size: $font-mobile-paragraph-size;
+          text-align: justify;
+          text-align-last: center;
         }
       }
       .why-choose-exim-text-color {
