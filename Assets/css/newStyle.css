@@ -641,7 +641,11 @@ img {
 .find-us .find-us-heading .heading h1 span {
   color: rgb(246, 0, 2);
 }
-.find-us .find-us-heading .heading i {
+.find-us .find-us-heading .heading a {
+  color: rgb(93, 94, 96);
+  text-decoration: none;
+}
+.find-us .find-us-heading .heading a i {
   color: rgb(93, 94, 96);
   font-size: 35px;
   margin: 10px;
@@ -650,14 +654,15 @@ img {
   font-size: 38px;
   font-weight: 100;
 }
-.find-us .find-us-heading .button-heading button {
+.find-us .find-us-heading .button-heading a {
   border: none;
   background: rgb(246, 0, 2);
   color: white;
   padding: 8px 14px;
   border-radius: 10px;
+  text-decoration: none;
 }
-.find-us .find-us-heading .button-heading button i {
+.find-us .find-us-heading .button-heading a i {
   padding-right: 5px;
 }
 .find-us .mobile-png {
@@ -741,6 +746,10 @@ img {
   -o-object-position: center;
      object-position: center;
 }
+.footer-section .container .icons-colors a {
+  text-decoration: none;
+  color: white;
+}
 .footer-section .container .icons-colors i {
   margin-right: 30px;
 }
@@ -751,6 +760,10 @@ img {
 .footer-section .container .center-align li {
   display: flex;
   padding: 5px 0px;
+}
+.footer-section .container .center-align li a {
+  text-decoration: none;
+  color: white;
 }
 .footer-section .container .center-align li i {
   color: rgb(246, 0, 2);
@@ -3068,7 +3081,11 @@ img {
   .find-us .find-us-heading .heading h1 span {
     color: rgb(246, 0, 2);
   }
-  .find-us .find-us-heading .heading i {
+  .find-us .find-us-heading .heading a {
+    text-decoration: none;
+    color: rgb(93, 94, 96);
+  }
+  .find-us .find-us-heading .heading a i {
     color: rgb(93, 94, 96);
     font-size: 15px;
     margin: 10px;
@@ -3076,15 +3093,16 @@ img {
   .find-us .find-us-heading .button-heading h1 {
     font-size: 25px;
   }
-  .find-us .find-us-heading .button-heading button {
+  .find-us .find-us-heading .button-heading a {
     border: none;
     background: rgb(246, 0, 2);
     color: white;
     padding: 2px 4px;
     border-radius: 5px;
     font-size: 8px;
+    text-decoration: none;
   }
-  .find-us .find-us-heading .button-heading button i {
+  .find-us .find-us-heading .button-heading a i {
     padding-right: 5px;
     font-size: 12px;
   }
@@ -3183,6 +3201,10 @@ img {
     -o-object-position: center;
        object-position: center;
   }
+  .footer-section .container .icons-colors a {
+    text-decoration: none;
+    color: white;
+  }
   .footer-section .container .icons-colors i {
     margin-right: 30px;
   }
@@ -3196,6 +3218,10 @@ img {
     display: flex;
     padding: 5px 0px;
     font-size: 14px;
+  }
+  .footer-section .container .center-align ul li a {
+    text-decoration: none;
+    color: white;
   }
   .footer-section .container .center-align ul li i {
     color: rgb(246, 0, 2);
