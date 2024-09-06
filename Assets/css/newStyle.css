@@ -61,7 +61,7 @@ img {
 }
 .section-nav-menu .headerItems .nav-links .headerlink {
   padding: 7px 40px;
-  font-size: 25px;
+  font-size: 22px;
   font-family: "DM Sans 36pt";
   text-decoration: none;
   line-height: 1;
@@ -113,7 +113,7 @@ img {
   font-size: 32px;
 }
 .mobil-section-nav-menu .nav-links-main {
-  background-color: rgb(43, 45, 66);
+  background-color: rgba(102, 102, 102, 0.1);
   position: absolute;
   z-index: 100;
   top: 0px;
@@ -2612,7 +2612,7 @@ img {
   }
   .mobil-section-nav-menu .nav-links-main {
     display: none;
-    background-color: rgb(43, 45, 66);
+    background-color: rgba(102, 102, 102, 0.9);
     position: absolute;
     z-index: 100;
     top: 0px;
@@ -2630,7 +2630,7 @@ img {
     text-align: right;
   }
   .mobil-section-nav-menu .nav-links-main .nav-links button {
-    background-color: rgb(43, 45, 66);
+    background-color: rgba(102, 102, 102, 0.1);
     border: none;
     color: white;
     margin: 5px 0px;

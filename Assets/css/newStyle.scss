@@ -85,7 +85,7 @@ img {
       gap: 3px;
       .headerlink {
         padding: 7px 40px;
-        font-size: 25px;
+        font-size: 22px;
         font-family: $font-family-exim;
         text-decoration: none;
         line-height: 1;
@@ -144,7 +144,7 @@ img {
   }
 
   .nav-links-main {
-    background-color: $seconday-color;
+    background-color: rgb(102, 102, 102, 0.1);
     position: absolute;
     z-index: 100;
     top: 0px;
@@ -2790,7 +2790,7 @@ img {
 
     .nav-links-main {
       display: none;
-      background-color: $seconday-color;
+      background-color: rgb(102, 102, 102, 0.9);
       position: absolute;
       z-index: 100;
       top: 0px;
@@ -2809,7 +2809,7 @@ img {
         text-align: right;
 
         button {
-          background-color: $seconday-color;
+          background-color: rgb(102, 102, 102, 0.1);
           border: none;
           color: white;
           margin: 5px 0px;
