@@ -19,13 +19,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function toggleMenu() {
     const classTag = document.querySelector('.nav-links-main');
+    const classTagOPen = document.querySelector('.menu-open');
+    const classTagClose = document.querySelector('.menu-close');
+
+    
     
     if (classTag.style.display === 'none' || classTag.style.display === '') {
       classTag.style.display = 'block'; 
+      classTagOPen.style.display ='none';
+      classTagClose.style.display ='block';
       classTag.classList.add('active'); // Show the menu
     } else {
       classTag.style.display = 'none'; // Hide the menu
       classTag.classList.remove('active');
+      classTagOPen.style.display ='block';
+      classTagClose.style.display ='none';
     }
    
   }

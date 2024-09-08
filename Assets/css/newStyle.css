@@ -80,9 +80,12 @@ img {
 }
 
 .mobil-section-nav-menu {
+  font-family: "DM Sans 36pt";
+  font-weight: 100;
   display: none;
   background: white;
-  position: static;
+  z-index: 200;
+  width: 100%;
 }
 .mobil-section-nav-menu .container {
   display: flex;
@@ -90,7 +93,7 @@ img {
   align-items: center;
 }
 .mobil-section-nav-menu .container .container-logo {
-  width: 150px;
+  width: 170px;
 }
 .mobil-section-nav-menu .container .container-logo img {
   -o-object-fit: cover;
@@ -113,14 +116,15 @@ img {
   font-size: 32px;
 }
 .mobil-section-nav-menu .nav-links-main {
-  background-color: rgba(102, 102, 102, 0.1);
+  display: none;
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   z-index: 100;
-  top: 0px;
+  top: 103px;
   right: -100%; /* Initially hide the menu off-screen */
   width: 80%; /* Adjust width as needed */
   height: 100%;
-  transition: right 0.3s ease; /* Smooth transition effect */
+  transition: right 1.3s ease-in-out; /* Smooth transition effect */
 }
 .mobil-section-nav-menu .nav-links-main.active {
   right: 0; /* Slide in from right to left */
@@ -128,20 +132,47 @@ img {
 .mobil-section-nav-menu .nav-links-main .nav-links {
   display: flex;
   flex-direction: column;
-  text-align: right;
+  text-align: left;
+}
+.mobil-section-nav-menu .nav-links-main .nav-links button {
+  background-color: rgba(102, 102, 102, 0.1);
+  border: none;
+  color: white;
+  margin: 5px 0px;
+  font-weight: 700;
 }
 .mobil-section-nav-menu .nav-links-main .nav-links .headerlink {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 18px;
   font-weight: 500;
   padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.mobil-section-nav-menu .nav-links-main .nav-links .headerlink i {
+  display: none;
+  font-size: 40px;
+  color: rgb(246, 0, 2);
+  margin-left: -20px;
 }
 .mobil-section-nav-menu .nav-links-main .nav-links .headerlink:hover {
   color: rgb(246, 0, 2);
 }
+.mobil-section-nav-menu .nav-links-main .nav-links .headerlink:hover i {
+  display: block;
+  font-size: 40px;
+  color: rgb(246, 0, 2);
+  margin-left: -40px;
+}
 .mobil-section-nav-menu .nav-links-main .nav-links .headerlink.active {
   color: rgb(246, 0, 2);
+}
+.mobil-section-nav-menu .nav-links-main .nav-links .headerlink.active i {
+  display: block;
+  font-size: 40px;
+  color: rgb(246, 0, 2);
+  margin-left: -40px;
 }
 
 .scroll-section {
@@ -789,12 +820,14 @@ img {
   top: 0;
   left: 0px;
   right: 0;
-  bottom: 60px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .aboutUs .wrapper .about-content {
   width: 100%;
   text-align: center;
   color: white;
+  margin-bottom: 60px;
 }
 .aboutUs .wrapper .about-content h1 {
   font-size: 50px;
@@ -1200,6 +1233,7 @@ img {
   -o-object-position: center;
      object-position: center;
   border-radius: 30px;
+  height: 55%;
 }
 .customs-parehousing-project .customs-brokerage .container .cols-one .logo-icon {
   position: absolute;
@@ -1256,6 +1290,7 @@ img {
   -o-object-position: center;
      object-position: center;
   border-radius: 30px;
+  height: 55%;
 }
 .customs-parehousing-project .customs-brokerage .container .cols-two .logo-icon {
   position: absolute;
@@ -1312,6 +1347,7 @@ img {
   -o-object-position: center;
      object-position: center;
   border-radius: 30px;
+  height: 55%;
 }
 .customs-parehousing-project .customs-brokerage .container .cols-three .logo-icon {
   position: absolute;
@@ -1347,7 +1383,7 @@ img {
   justify-content: center;
 }
 .We-love-to .container .cols-one .heading-location .heading h1 {
-  font-size: 67px;
+  font-size: 50px;
   font-weight: 500;
 }
 .We-love-to .container .cols-one .heading-location .heading h1 span {
@@ -1594,9 +1630,12 @@ img {
 
 @media (min-width: 1699px) {
   .mobil-section-nav-menu {
+    font-family: "DM Sans 36pt";
+    font-weight: 100;
     display: none;
     background: white;
-    position: static;
+    z-index: 200;
+    width: 100%;
   }
   .mobil-section-nav-menu .container {
     display: flex;
@@ -1628,10 +1667,10 @@ img {
   }
   .mobil-section-nav-menu .nav-links-main {
     display: none;
-    background-color: rgb(43, 45, 66);
+    background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
     z-index: 100;
-    top: 0px;
+    top: 103px;
     right: -100%; /* Initially hide the menu off-screen */
     width: 80%; /* Adjust width as needed */
     height: 100%;
@@ -1643,20 +1682,47 @@ img {
   .mobil-section-nav-menu .nav-links-main .nav-links {
     display: flex;
     flex-direction: column;
-    text-align: right;
+    text-align: left;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links button {
+    background-color: rgba(102, 102, 102, 0.1);
+    border: none;
+    color: white;
+    margin: 5px 0px;
+    font-weight: 700;
   }
   .mobil-section-nav-menu .nav-links-main .nav-links .headerlink {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: 500;
     padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink i {
+    display: none;
+    font-size: 40px;
+    color: rgb(246, 0, 2);
+    margin-left: -20px;
   }
   .mobil-section-nav-menu .nav-links-main .nav-links .headerlink:hover {
     color: rgb(246, 0, 2);
   }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink:hover i {
+    display: block;
+    font-size: 40px;
+    color: rgb(246, 0, 2);
+    margin-left: -40px;
+  }
   .mobil-section-nav-menu .nav-links-main .nav-links .headerlink.active {
     color: rgb(246, 0, 2);
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink.active i {
+    display: block;
+    font-size: 40px;
+    color: rgb(246, 0, 2);
+    margin-left: -40px;
   }
   .container {
     max-width: 1598px;
@@ -1665,60 +1731,77 @@ img {
   .what-we-provide {
     background: linear-gradient(to bottom, rgb(43, 45, 66) 50%, #fff 50%);
     padding: 50px 0;
-    font-family: "DM Sans 36pt";
   }
   .what-we-provide .hd-typ1 {
     font-size: 50px;
+    font-family: "DM Sans 36pt";
     font-weight: 500;
     line-height: 1.25;
+    color: white;
+  }
+  .what-we-provide .hd-typ1 .hd-span-color {
+    color: rgb(246, 0, 2);
   }
   .what-we-provide .intro-txt {
     margin-top: 30px;
-    font-weight: 500;
+    font-family: "DM Sans 36pt";
+    font-weight: 100;
     font-size: 25px;
-    line-height: 1.875;
+    line-height: 1.2;
+    text-align: center;
+    color: white;
   }
   .what-we-provide .img-wrap {
-    margin: 50px 0 0;
-    gap: 30px;
+    margin: 50px -15px 0;
   }
   .what-we-provide .img-wrap .cols {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 30px;
-    padding: 0;
-    width: 22.778%;
+    padding: 0 15px;
+    width: 21.55%;
   }
   .what-we-provide .img-wrap .cols:first-child {
-    width: 810px;
-    height: 532px;
+    width: 55%;
   }
   .what-we-provide .img-wrap .cols:first-child .item {
-    overflow: hidden;
-    height: 100%;
+    width: 100%;
+    height: 450px;
   }
   .what-we-provide .img-wrap .cols:first-child .item img {
+    max-width: 100%;
     min-height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
   }
-  .what-we-provide .img-wrap .cols:nth-child(2) .item {
-    height: 245px;
-    overflow: hidden;
+  .what-we-provide .img-wrap .cols:last-child {
+    width: 23%;
   }
-  .what-we-provide .img-wrap .cols:nth-child(2) .item img {
+  .what-we-provide .img-wrap .cols:last-child .item {
+    height: 173px;
+  }
+  .what-we-provide .img-wrap .cols:last-child .item img {
+    max-width: 100%;
     min-height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: center;
-       object-position: center;
   }
   .what-we-provide .img-wrap .cols .item {
     border-radius: 20px;
     overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+  }
+  .what-we-provide .img-wrap .cols .item .img-label {
+    position: absolute;
+    font-family: "DM Sans 36pt";
+    color: #fff;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 100;
   }
   .what-we-provide .img-wrap .cols .btn-typ2 {
     padding: 6px;
@@ -1728,12 +1811,126 @@ img {
     background-color: rgb(246, 0, 2);
     color: #fff;
     font-family: "DM Sans 36pt";
-    font-weight: 500;
+    font-family: "DM Sans 36pt";
+    font-weight: 100;
     font-size: 16px;
     line-height: 1.875;
     border-radius: 20px;
-    outline: none;
     border: none;
+    outline: none;
+  }
+  .find-us {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 100px 0px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans 36pt";
+  }
+  .find-us .main-class {
+    height: 60%;
+    display: flex;
+  }
+  .find-us .find-us-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+  .find-us .find-us-heading .heading {
+    font-weight: 500;
+  }
+  .find-us .find-us-heading .heading h1 {
+    font-size: 50px;
+  }
+  .find-us .find-us-heading .heading h1 span {
+    color: rgb(246, 0, 2);
+  }
+  .find-us .find-us-heading .heading a {
+    color: rgb(93, 94, 96);
+    text-decoration: none;
+  }
+  .find-us .find-us-heading .heading a i {
+    color: rgb(93, 94, 96);
+    font-size: 35px;
+    margin: 10px;
+  }
+  .find-us .find-us-heading .button-heading h1 {
+    font-size: 38px;
+    font-weight: 100;
+  }
+  .find-us .find-us-heading .button-heading a {
+    border: none;
+    background: rgb(246, 0, 2);
+    color: white;
+    padding: 8px 14px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .find-us .find-us-heading .button-heading a i {
+    padding-right: 5px;
+  }
+  .find-us .mobile-png {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .find-us .mobile-png img {
+    max-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    height: 500px;
+  }
+  .find-us .mobile-png .video-label {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .find-us .mobile-png .video-label video {
+    width: 55%;
+  }
+  .find-us .image-group {
+    display: flex;
+  }
+  .find-us .image-group .column-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .find-us .image-group .column-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .find-us .image-group .column-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .find-us .image-group .imag-item {
+    width: 90%;
+    overflow: hidden;
+  }
+  .find-us .image-group .imag-item img {
+    min-height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
   }
   .aboutUs {
     position: relative;
@@ -1754,12 +1951,14 @@ img {
     top: 0;
     left: 0px;
     right: 0;
-    bottom: 60px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
   }
   .aboutUs .wrapper .about-content {
     width: 100%;
     text-align: center;
     color: white;
+    margin-bottom: 60px;
   }
   .aboutUs .wrapper .about-content h1 {
     font-size: 50px;
@@ -2577,6 +2776,8 @@ img {
     background-color: rgb(246, 0, 2);
   }
   .mobil-section-nav-menu {
+    font-family: "DM Sans 36pt";
+    font-weight: 100;
     display: block;
     background: white;
     z-index: 200;
@@ -2596,6 +2797,12 @@ img {
     -o-object-position: center;
        object-position: center;
   }
+  .mobil-section-nav-menu .container .container-menu-arrow .menu-open {
+    display: block;
+  }
+  .mobil-section-nav-menu .container .container-menu-arrow .menu-close {
+    display: none;
+  }
   .mobil-section-nav-menu .container .container-menu-arrow button {
     background-color: #fff;
     border: solid 1px rgb(43, 45, 66);
@@ -2612,10 +2819,10 @@ img {
   }
   .mobil-section-nav-menu .nav-links-main {
     display: none;
-    background-color: rgba(102, 102, 102, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
     z-index: 100;
-    top: 0px;
+    top: 103px;
     right: -100%; /* Initially hide the menu off-screen */
     width: 80%; /* Adjust width as needed */
     height: 100%;
@@ -2627,7 +2834,7 @@ img {
   .mobil-section-nav-menu .nav-links-main .nav-links {
     display: flex;
     flex-direction: column;
-    text-align: right;
+    text-align: left;
   }
   .mobil-section-nav-menu .nav-links-main .nav-links button {
     background-color: rgba(102, 102, 102, 0.1);
@@ -2638,16 +2845,36 @@ img {
   }
   .mobil-section-nav-menu .nav-links-main .nav-links .headerlink {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: 500;
     padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink i {
+    display: none;
+    font-size: 40px;
+    color: rgb(246, 0, 2);
+    margin-left: -20px;
   }
   .mobil-section-nav-menu .nav-links-main .nav-links .headerlink:hover {
     color: rgb(246, 0, 2);
   }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink:hover i {
+    display: block;
+    font-size: 40px;
+    color: rgb(246, 0, 2);
+    margin-left: -40px;
+  }
   .mobil-section-nav-menu .nav-links-main .nav-links .headerlink.active {
     color: rgb(246, 0, 2);
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink.active i {
+    display: block;
+    font-size: 40px;
+    color: rgb(246, 0, 2);
+    margin-left: -40px;
   }
   .banner-section {
     position: relative;
@@ -3097,7 +3324,7 @@ img {
     border: none;
     background: rgb(246, 0, 2);
     color: white;
-    padding: 2px 4px;
+    padding: 6px 4px;
     border-radius: 5px;
     font-size: 8px;
     text-decoration: none;
@@ -3253,6 +3480,7 @@ img {
   .aboutUs .wrapper .container .about-content {
     text-align: center;
     color: white;
+    margin-bottom: 0px;
   }
   .aboutUs .wrapper .container .about-content h1 {
     font-size: 25px;
@@ -3839,7 +4067,7 @@ img {
   .We-love-to .container .cols-one .heading-location .heading h1 {
     font-size: 40px;
     font-weight: 500;
-    text-align: center;
+    text-align: left;
   }
   .We-love-to .container .cols-one .heading-location .heading h1 span {
     color: rgb(246, 0, 2);

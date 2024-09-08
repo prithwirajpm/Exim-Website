@@ -107,16 +107,19 @@ img {
 }
 
 .mobil-section-nav-menu {
+  font-family: $font-family-exim;
+  font-weight: 100;
   display: none;
   background: white;
-  position: static;
+  z-index: 200;
+  width: 100%;
   .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     .container-logo {
-      width: 150px;
+      width: 170px;
 
       img {
         object-fit: cover;
@@ -144,14 +147,15 @@ img {
   }
 
   .nav-links-main {
-    background-color: rgb(102, 102, 102, 0.1);
+    display: none;
+    background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
     z-index: 100;
-    top: 0px;
+    top: 103px;
     right: -100%; /* Initially hide the menu off-screen */
     width: 80%; /* Adjust width as needed */
     height: 100%;
-    transition: right 0.3s ease; /* Smooth transition effect */
+    transition: right 1.3s ease-in-out; /* Smooth transition effect */
 
     &.active {
       right: 0; /* Slide in from right to left */
@@ -160,21 +164,50 @@ img {
     .nav-links {
       display: flex;
       flex-direction: column;
-      text-align: right;
+      text-align: left;
+
+      button {
+        background-color: rgb(102, 102, 102, 0.1);
+        border: none;
+        color: white;
+        margin: 5px 0px;
+        font-weight: 700;
+      }
 
       .headerlink {
         text-decoration: none;
-        color: white;
+        color: black;
         font-size: 18px;
         font-weight: 500;
         padding: 20px;
+        display: flex;
+        align-items: center;
+
+        i {
+          display: none;
+          font-size: 40px;
+          color: $primary-color;
+          margin-left: -20px;
+        }
 
         &:hover {
           color: $primary-color;
+          i {
+            display: block;
+            font-size: 40px;
+            color: $primary-color;
+            margin-left: -40px;
+          }
         }
 
         &.active {
           color: $primary-color;
+          i {
+            display: block;
+            font-size: 40px;
+            color: $primary-color;
+            margin-left: -40px;
+          }
         }
       }
     }
@@ -862,12 +895,14 @@ img {
     top: 0;
     left: 0px;
     right: 0;
-    bottom: 60px;
+    bottom: 0px;
+    background-color: rgb(0, 0, 0, 0.6);
 
     .about-content {
       width: 100%;
       text-align: center;
       color: white;
+      margin-bottom: 60px;
       h1 {
         font-size: $font-heading-size;
         font-weight: $font-heading-weight;
@@ -1288,6 +1323,7 @@ img {
             object-fit: cover;
             object-position: center;
             border-radius: 30px;
+            height: 55%;
           }
         }
         .logo-icon {
@@ -1344,6 +1380,7 @@ img {
             object-fit: cover;
             object-position: center;
             border-radius: 30px;
+            height: 55%;
           }
         }
         .logo-icon {
@@ -1400,6 +1437,7 @@ img {
             object-fit: cover;
             object-position: center;
             border-radius: 30px;
+            height: 55%;
           }
         }
         .logo-icon {
@@ -1442,7 +1480,7 @@ img {
       .heading-location {
         .heading {
           h1 {
-            font-size: 67px;
+            font-size: $font-heading-size;
             font-weight: 500;
             span {
               color: $primary-color;
@@ -1707,9 +1745,12 @@ img {
 
 @media (min-width: 1699px) {
   .mobil-section-nav-menu {
+    font-family: $font-family-exim;
+    font-weight: 100;
     display: none;
     background: white;
-    position: static;
+    z-index: 200;
+    width: 100%;
     .container {
       display: flex;
       justify-content: space-between;
@@ -1745,10 +1786,10 @@ img {
 
     .nav-links-main {
       display: none;
-      background-color: $seconday-color;
+      background-color: rgba(255, 255, 255, 0.9);
       position: absolute;
       z-index: 100;
-      top: 0px;
+      top: 103px;
       right: -100%; /* Initially hide the menu off-screen */
       width: 80%; /* Adjust width as needed */
       height: 100%;
@@ -1761,21 +1802,50 @@ img {
       .nav-links {
         display: flex;
         flex-direction: column;
-        text-align: right;
+        text-align: left;
+
+        button {
+          background-color: rgb(102, 102, 102, 0.1);
+          border: none;
+          color: white;
+          margin: 5px 0px;
+          font-weight: 700;
+        }
 
         .headerlink {
           text-decoration: none;
-          color: white;
+          color: black;
           font-size: 18px;
           font-weight: 500;
           padding: 20px;
+          display: flex;
+          align-items: center;
+
+          i {
+            display: none;
+            font-size: 40px;
+            color: $primary-color;
+            margin-left: -20px;
+          }
 
           &:hover {
             color: $primary-color;
+            i {
+              display: block;
+              font-size: 40px;
+              color: $primary-color;
+              margin-left: -40px;
+            }
           }
 
           &.active {
             color: $primary-color;
+            i {
+              display: block;
+              font-size: 40px;
+              color: $primary-color;
+              margin-left: -40px;
+            }
           }
         }
       }
@@ -1786,57 +1856,74 @@ img {
     padding: 0;
   }
   .what-we-provide {
-    background: linear-gradient(to bottom, rgb(43, 45, 66) 50%, #fff 50%);
+    background: linear-gradient(to bottom, $seconday-color 50%, #fff 50%);
     padding: 50px 0;
-    font-family: $font-family-exim;
     .hd-typ1 {
       font-size: $font-heading-size;
+      font-family: $font-family-exim;
       font-weight: $font-heading-weight;
       line-height: 1.25;
+      color: white;
+      .hd-span-color {
+        color: $primary-color;
+      }
     }
     .intro-txt {
       margin-top: 30px;
-      font-weight: $font-heading-weight;
+      font-family: $font-family-exim;
+      font-weight: $paragraph-font-weight;
       font-size: $font-paragraph-size;
-      line-height: 1.875;
+      line-height: 1.2;
+      text-align: center;
+      color: white;
     }
     .img-wrap {
-      margin: 50px 0 0;
-      gap: 30px;
+      margin: 50px -15px 0;
       .cols {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         gap: 30px;
-        padding: 0;
-        width: 22.778%;
+        padding: 0 15px;
+        width: 21.55%;
         &:first-child {
-          width: 810px;
-          height: 532px;
+          width: 55%;
           .item {
-            overflow: hidden;
-            height: 100%;
+            width: 100%;
+            height: 450px;
             img {
+              max-width: 100%;
               min-height: 100%;
               object-fit: cover;
               object-position: center;
             }
           }
         }
-        &:nth-child(2) {
+        &:last-child {
+          width: 23%;
           .item {
-            height: 245px;
-            overflow: hidden;
+            height: 173px;
             img {
+              max-width: 100%;
               min-height: 100%;
-              object-fit: cover;
-              object-position: center;
             }
           }
         }
         .item {
           border-radius: 20px;
           overflow: hidden;
+          position: relative;
+          display: flex;
+          justify-content: start;
+          align-items: end;
+          .img-label {
+            position: absolute;
+            font-family: "DM Sans 36pt";
+            color: #fff;
+            padding: 15px;
+            font-size: $font-paragraph-size;
+            font-weight: $paragraph-font-weight;
+          }
         }
         .btn-typ2 {
           padding: 6px;
@@ -1846,12 +1933,162 @@ img {
           background-color: $primary-color;
           color: #fff;
           font-family: "DM Sans 36pt";
-          font-weight: $font-heading-weight;
+          font-family: $font-family-exim;
+          font-weight: $paragraph-font-weight;
           font-size: 16px;
           line-height: 1.875;
           border-radius: 20px;
-          outline: none;
           border: none;
+          outline: none;
+        }
+      }
+    }
+  }
+
+  .find-us {
+    width: 100%;
+    height: fit-content;
+    padding: 100px 0px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-family-exim;
+    .main-class {
+      height: 60%;
+      display: flex;
+    }
+    .find-us-heading {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-top: 20px;
+      padding-bottom: 25px;
+      .heading {
+        font-weight: $font-heading-weight;
+        h1 {
+          font-size: $font-heading-size;
+          span {
+            color: $primary-color;
+          }
+        }
+        a {
+          color: rgb(93, 94, 96);
+          text-decoration: none;
+          i {
+            color: rgb(93, 94, 96);
+            font-size: 35px;
+            margin: 10px;
+          }
+        }
+      }
+      .button-heading {
+        h1 {
+          font-size: 38px;
+          font-weight: 100;
+        }
+
+        a {
+          border: none;
+          background: $primary-color;
+          color: white;
+          padding: 8px 14px;
+          border-radius: 10px;
+          text-decoration: none;
+          // margin-right: 8px;
+          i {
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+
+    .mobile-png {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        max-width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: 500px;
+        // transform: rotate(90deg);
+      }
+      .video-label {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        video {
+          width: 55%;
+        }
+      }
+    }
+
+    .image-group {
+      display: flex;
+      .column-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        // .imag-item {
+        //   // width: 90%;
+        //   // overflow: hidden;
+        //   width: 350px;
+        //   height: 250px;
+        //   img {
+        //     height: 100%;
+        //     width: 99%;
+        //     object-fit: cover;
+        //     object-position: 50% 42%;
+        //   }
+        // }
+      }
+      .column-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        // .imag-item {
+        //   // width: 90%;
+        //   // overflow: hidden;
+        //   width: 400px;
+        //   height: 500px;
+        //   img {
+        //     min-height: 100%;
+        //     object-fit: cover;
+        //     object-position: center;
+        //   }
+        // }
+      }
+      .column-three {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        // .imag-item {
+        //   width: 290px;
+        //   height: 500px;
+        //   overflow: hidden;
+        //   img {
+        //     min-height: 100%;
+        //     object-fit: cover;
+        //     object-position: center;
+        //   }
+        // }
+      }
+      .imag-item {
+        width: 90%;
+        overflow: hidden;
+        img {
+          min-height: 100%;
+          object-fit: cover;
+          object-position: center;
         }
       }
     }
@@ -1873,12 +2110,14 @@ img {
       top: 0;
       left: 0px;
       right: 0;
-      bottom: 60px;
+      bottom: 0px;
+      background-color: rgb(0, 0, 0, 0.6);
 
       .about-content {
         width: 100%;
         text-align: center;
         color: white;
+        margin-bottom: 60px;
         h1 {
           font-size: $font-heading-size;
           font-weight: $font-heading-weight;
@@ -2751,6 +2990,8 @@ img {
   }
 
   .mobil-section-nav-menu {
+    font-family: $font-family-exim;
+    font-weight: 100;
     display: block;
     background: white;
     z-index: 200;
@@ -2770,6 +3011,13 @@ img {
       }
 
       .container-menu-arrow {
+        .menu-open {
+          display: block;
+        }
+
+        .menu-close {
+          display: none;
+        }
         button {
           background-color: #fff;
           border: solid 1px $seconday-color;
@@ -2790,10 +3038,10 @@ img {
 
     .nav-links-main {
       display: none;
-      background-color: rgb(102, 102, 102, 0.9);
+      background-color: rgba(255, 255, 255, 0.9);
       position: absolute;
       z-index: 100;
-      top: 0px;
+      top: 103px;
       right: -100%; /* Initially hide the menu off-screen */
       width: 80%; /* Adjust width as needed */
       height: 100%;
@@ -2806,7 +3054,7 @@ img {
       .nav-links {
         display: flex;
         flex-direction: column;
-        text-align: right;
+        text-align: left;
 
         button {
           background-color: rgb(102, 102, 102, 0.1);
@@ -2818,17 +3066,38 @@ img {
 
         .headerlink {
           text-decoration: none;
-          color: white;
+          color: black;
           font-size: 18px;
           font-weight: 500;
           padding: 20px;
+          display: flex;
+          align-items: center;
+
+          i {
+            display: none;
+            font-size: 40px;
+            color: $primary-color;
+            margin-left: -20px;
+          }
 
           &:hover {
             color: $primary-color;
+            i {
+              display: block;
+              font-size: 40px;
+              color: $primary-color;
+              margin-left: -40px;
+            }
           }
 
           &.active {
             color: $primary-color;
+            i {
+              display: block;
+              font-size: 40px;
+              color: $primary-color;
+              margin-left: -40px;
+            }
           }
         }
       }
@@ -3284,7 +3553,7 @@ img {
           border: none;
           background: $primary-color;
           color: white;
-          padding: 2px 4px;
+          padding: 6px 4px;
           border-radius: 5px;
           font-size: 8px;
           text-decoration: none;
@@ -3440,6 +3709,7 @@ img {
         .about-content {
           text-align: center;
           color: white;
+          margin-bottom: 0px;
           h1 {
             font-size: $font-mobile-heading-size;
             font-weight: $font-heading-weight;
@@ -4051,7 +4321,7 @@ img {
             h1 {
               font-size: 40px;
               font-weight: 500;
-              text-align: center;
+              text-align: left;
               span {
                 color: $primary-color;
               }
