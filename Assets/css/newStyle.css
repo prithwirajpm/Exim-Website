@@ -123,7 +123,8 @@ img {
   top: 103px;
   right: -100%; /* Initially hide the menu off-screen */
   width: 80%; /* Adjust width as needed */
-  height: 100%;
+  min-height: 100vh;
+  height: auto;
   transition: right 1.3s ease-in-out; /* Smooth transition effect */
 }
 .mobil-section-nav-menu .nav-links-main.active {
@@ -149,6 +150,7 @@ img {
   padding: 20px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .mobil-section-nav-menu .nav-links-main .nav-links .headerlink i {
   display: none;
@@ -169,6 +171,43 @@ img {
   color: rgb(246, 0, 2);
 }
 .mobil-section-nav-menu .nav-links-main .nav-links .headerlink.active i {
+  display: block;
+  font-size: 40px;
+  color: rgb(246, 0, 2);
+  margin-left: -40px;
+}
+.mobil-section-nav-menu .nav-links-main .nav-links .list-resource {
+  display: none;
+}
+.mobil-section-nav-menu .nav-links-main .nav-links .list-resource .headerlink {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.mobil-section-nav-menu .nav-links-main .nav-links .list-resource .headerlink i {
+  display: none;
+  font-size: 40px;
+  color: rgb(246, 0, 2);
+  margin-left: -20px;
+}
+.mobil-section-nav-menu .nav-links-main .nav-links .list-resource .headerlink:hover {
+  color: rgb(246, 0, 2);
+}
+.mobil-section-nav-menu .nav-links-main .nav-links .list-resource .headerlink:hover i {
+  display: block;
+  font-size: 40px;
+  color: rgb(246, 0, 2);
+  margin-left: -40px;
+}
+.mobil-section-nav-menu .nav-links-main .nav-links .list-resource .headerlink.active {
+  color: rgb(246, 0, 2);
+}
+.mobil-section-nav-menu .nav-links-main .nav-links .list-resource .headerlink.active i {
   display: block;
   font-size: 40px;
   color: rgb(246, 0, 2);
@@ -753,6 +792,44 @@ img {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+.find-us .image-group .column-two-image {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.find-us .image-group .column-two-image .img-item {
+  width: 95%;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.find-us .image-group .column-two-image .img-item img {
+  width: 90%;
+  height: 80%;
+}
+.find-us .image-group .column-two-image-second {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.find-us .image-group .column-two-image-second .img-item {
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.find-us .image-group .column-two-image-second .img-item img {
+  width: 90%;
+  height: 100%;
 }
 
 .footer-section {
@@ -1673,7 +1750,8 @@ img {
     top: 103px;
     right: -100%; /* Initially hide the menu off-screen */
     width: 80%; /* Adjust width as needed */
-    height: 100%;
+    min-height: 100vh;
+    height: auto;
     transition: right 1.3s ease-in-out; /* Smooth transition effect */
   }
   .mobil-section-nav-menu .nav-links-main.active {
@@ -1699,6 +1777,7 @@ img {
     padding: 20px;
     display: flex;
     align-items: center;
+    cursor: pointer;
   }
   .mobil-section-nav-menu .nav-links-main .nav-links .headerlink i {
     display: none;
@@ -1719,6 +1798,43 @@ img {
     color: rgb(246, 0, 2);
   }
   .mobil-section-nav-menu .nav-links-main .nav-links .headerlink.active i {
+    display: block;
+    font-size: 40px;
+    color: rgb(246, 0, 2);
+    margin-left: -40px;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .list-resource {
+    display: none;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .list-resource .headerlink {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .list-resource .headerlink i {
+    display: none;
+    font-size: 40px;
+    color: rgb(246, 0, 2);
+    margin-left: -20px;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .list-resource .headerlink:hover {
+    color: rgb(246, 0, 2);
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .list-resource .headerlink:hover i {
+    display: block;
+    font-size: 40px;
+    color: rgb(246, 0, 2);
+    margin-left: -40px;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .list-resource .headerlink.active {
+    color: rgb(246, 0, 2);
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .list-resource .headerlink.active i {
     display: block;
     font-size: 40px;
     color: rgb(246, 0, 2);
@@ -2825,7 +2941,8 @@ img {
     top: 103px;
     right: -100%; /* Initially hide the menu off-screen */
     width: 80%; /* Adjust width as needed */
-    height: 100%;
+    min-height: 100vh;
+    height: auto;
     transition: right 1.3s ease-in-out; /* Smooth transition effect */
   }
   .mobil-section-nav-menu .nav-links-main.active {
@@ -2871,6 +2988,43 @@ img {
     color: rgb(246, 0, 2);
   }
   .mobil-section-nav-menu .nav-links-main .nav-links .headerlink.active i {
+    display: block;
+    font-size: 40px;
+    color: rgb(246, 0, 2);
+    margin-left: -40px;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink .list-resource {
+    display: none;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink .list-resource .headerlink {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink .list-resource .headerlink i {
+    display: none;
+    font-size: 40px;
+    color: rgb(246, 0, 2);
+    margin-left: -20px;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink .list-resource .headerlink:hover {
+    color: rgb(246, 0, 2);
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink .list-resource .headerlink:hover i {
+    display: block;
+    font-size: 40px;
+    color: rgb(246, 0, 2);
+    margin-left: -40px;
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink .list-resource .headerlink.active {
+    color: rgb(246, 0, 2);
+  }
+  .mobil-section-nav-menu .nav-links-main .nav-links .headerlink .list-resource .headerlink.active i {
     display: block;
     font-size: 40px;
     color: rgb(246, 0, 2);
@@ -3773,7 +3927,7 @@ img {
     text-align: justify;
   }
   .dangerous-goods .container .cols-image {
-    width: 50%;
+    width: 100%;
     transition: width 1.2s ease;
   }
   .dangerous-goods .container .cols-image .img-container {
@@ -3845,7 +3999,7 @@ img {
     text-align: justify;
   }
   .air-freight .container .cols-image {
-    width: 50%;
+    width: 100%;
     transition: width 1.2s ease;
   }
   .air-freight .container .cols-image .img-container {
