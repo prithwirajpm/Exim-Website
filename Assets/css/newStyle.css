@@ -3616,8 +3616,9 @@ img {
   .aboutUs img {
     max-width: 100%;
     min-height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    height: 400px;
+    -o-object-fit: fill;
+       object-fit: fill;
     -o-object-position: center;
        object-position: center;
   }
@@ -4219,6 +4220,7 @@ img {
     justify-content: center;
   }
   .We-love-to .container .cols-one .heading-location .heading h1 {
+    margin-left: 10px;
     font-size: 40px;
     font-weight: 500;
     text-align: left;
@@ -4233,7 +4235,7 @@ img {
   .We-love-to .container .cols-one .heading-location .location .center-align ul li {
     display: flex;
     padding: 5px 0px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .We-love-to .container .cols-one .heading-location .location .center-align ul li i {
     color: rgb(246, 0, 2);
